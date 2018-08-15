@@ -1,0 +1,48 @@
+{
+  "faculty": [
+    {
+      "email": "svlevine@eecs.berkeley.edu",
+      "image": "https://people.eecs.berkeley.edu/~svlevine/images/portrait_lab_small.png",
+      "link": "https://people.eecs.berkeley.edu/~svlevine/",
+      "name": "Sergey Levine",
+      "office_hours": "Wed 11:30am - 12:30pm (Location TBD)",
+      "title": "Instructor"
+    }
+  ],
+  "head_tas": [
+    {
+      "email": "rakelly@eecs.berkeley.edu",
+      "image": "https://people.eecs.berkeley.edu/~rakelly/kate_circle.png",
+      "link": "https://people.eecs.berkeley.edu/~rakelly/",
+      "name": "Kate Rakelly",
+      "office_hours": "Tue 11am - 12pm (Soda 651)",
+      "title": "Head GSI"
+    }
+  ],
+  "tas": [
+    {
+      "email": "gkahn@berkeley.edu",
+      "image": "https://people.eecs.berkeley.edu/~gregoryk/images/portrait.jpg",
+      "link": "https://people.eecs.berkeley.edu/~gregoryk/",
+      "name": "Gregory Kahn",
+      "office_hours": "Thu 1pm - 2pm (Soda 411)",
+      "title": "GSI"
+    },
+    {
+      "email": "sgr@berkeley.edu",
+      "image": "https://people.eecs.berkeley.edu/~reddy/files/189pic.jpg",
+      "link": "https://people.eecs.berkeley.edu/~reddy/",
+      "name": "Sid Reddy",
+      "office_hours": "Fri 3pm - 4pm (Soda 411)",
+      "title": "GSI"
+    },
+    {
+      "email": "mbchang@berkeley.edu",
+      "image": "http://mbchang.github.io/assets/profile-circle-10.png",
+      "link": "http://mbchang.github.io/",
+      "name": "Michael Chang",
+      "office_hours": "TBD",
+      "title": "GSI"
+    }
+  ]
+}

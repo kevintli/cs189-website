@@ -1,0 +1,56 @@
+{
+  "courses": [
+    {
+      "title": "Geoff Hinton on Coursera",
+      "url": "https://www.coursera.org/course/neuralnets"
+    },
+    {
+      "title": "Andrew Ng on Coursera",
+      "url": "https://www.coursera.org/learn/machine-learning/"
+    },
+    {
+      "title": "David Silver's course on reinforcement learning",
+      "url": "http://www0.cs.ucl.ac.uk/staff/D.Silver/web/Teaching.html"
+    },
+    {
+      "title": "Nando de Freitas' course on machine learning",
+      "url": "https://www.cs.ox.ac.uk/people/nando.defreitas/machinelearning/"
+    },
+    {
+      "title": "Andrej Karpathy's course on neural networks",
+      "url": "http://cs231n.github.io/"
+    }
+  ],
+  "textbooks": [
+    {
+      "title": "Deep Learning",
+      "url": "http://www.deeplearningbook.org/"
+    },
+    {
+      "title": "Sutton & Barto, Reinforcement Learning: An Introduction",
+      "url": "http://webdocs.cs.ualberta.ca/~sutton/book/the-book.html"
+    },
+    {
+      "title": "Szepesvari, Algorithms for Reinforcement Learning",
+      "url": "http://www.ualberta.ca/~szepesva/RLBook.html"
+    },
+    {
+      "title": "Bertsekas, Dynamic Programming and Optimal Control, Vols I and II",
+      "url": "http://www.athenasc.com/dpbook.html"
+    },
+    {
+      "title": "Puterman, Markov Decision Processes: Discrete Stochastic Dynamic Programming",
+      "url": "http://www.wiley.com/WileyCDA/WileyTitle/productCd-0471727822.html"
+    },
+    {
+      "title": "Powell, Approximate Dynamic Programming",
+      "url": "http://adp.princeton.edu/"
+    }
+  ],
+  "misclinks": [
+    {
+      "title": "A collection of deep learning resources",
+      "url": "http://www.jeremydjacksonphd.com/?cat=7"
+    }
+  ]
+}
