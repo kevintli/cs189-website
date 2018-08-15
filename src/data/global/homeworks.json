@@ -5,7 +5,7 @@
     "weeks": [
       1, 2
     ],
-    "active": false,
+    "active": true,
     "solution": false
   }
 ]
