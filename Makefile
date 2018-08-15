@@ -1,7 +1,7 @@
 all:
 	preview
 
-.PHONY: deploy staging update preview
+.PHONY: staging update preview
 
 preview:
 	python compile.py preview && \
@@ -10,17 +10,6 @@ preview:
   mv deeprlcourse published/ && \
 	cd published && \
 	python -m http.server
-
-# usage: make deploy m="commit message"
-deploy:
-	python compile.py production && \
-	cd ../staging && \
-	git pull --force && \
-	cp -r ../staging/published/* . && \
-	cp ../staging/published/.gitignore . && \
-	git add . && \
-	git commit -m "deploy: $(m)" --allow-empty && \
-	git push
 
 # usage: make staging m="commit message"
 staging:

@@ -18,7 +18,8 @@ Course Website Design
                 <p class="head-subtitle">CS 294-112 at UC Berkeley</p>
                 <h1 class="head-title">Deep Reinforcement Learning</h1>
                 <p class="head-subtitle">Lectures: Wed/Fri 10-11:30 a.m., Soda Hall, Room 306</p>
-                <p class="head-subtitle">Links to <a href="">live stream</a> and <a href="">recordings</a></p>
+                <br>
+                <p>The lectures will be <a href="">streamed</a> and <a href="">recorded</a>. The course is <b>not</b> being offered as an online course, and the videos are provided only for your personal informational and entertainment purposes. They are not part of any course requirement or degree-bearing university program.</p>
             </div>
             <div class="head-people">
                 {% for person in people.faculty %}
@@ -35,6 +36,43 @@ Course Website Design
                         </h2>
                         <p><span>{{ person.email }}</span></p>
                         <p>Office Hours: {{ person.office_hours }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                {% for person in people.head_tas %}
+                <div class="person col-md-6 col-sm-12 col-xs-12">
+                    <div class="person-thumbnail">
+                        <div class="person-avatar">
+                            <span class="person-image"
+                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
+                        </div>
+                    </div>
+                    <div class="person-text">
+                        <h2 class="person-name">{{ person.title }}
+                            <a href="{{ person.link }}">{{ person.name }}</a>
+                        </h2>
+                        <p><span>{{ person.email }}</span></p>
+                        <p>Office Hours: {{ person.office_hours }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+                {% for person in people.tas %}
+                <div class="person col-md-6 col-sm-12 col-xs-12">
+                    <div class="person-thumbnail">
+                        <div class="person-avatar">
+                            <span class="person-image"
+                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
+                        </div>
+                    </div>
+                    <div class="person-text">
+                        <h2 class="person-name">{{ person.title }}
+                            <a href="{{ person.link }}">{{ person.name }}</a>
+                        </h2>
+                        <p><span>{{ person.email }}</span></p>
+                        {% if person.office_hours %}
+                          <p>Office Hours: {{ person.office_hours }}</p>
+                        {% else %}
+                        {% endif %}
                     </div>
                 </div>
                 {% endfor %}
