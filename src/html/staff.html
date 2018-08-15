@@ -77,7 +77,10 @@ redirect_from: /staff
                                 {% endif %}
                             </h2>
                             <p><span>{{ person.email }}</span></p>
-                            <p>Office Hours: {{ person.office_hours }}</p>
+                            {% if person.office_hours %}
+                                <p>Office Hours: {{ person.office_hours }}</p>
+                            {% else %}
+                            {% endif %}
                         </div>
                     </div>
                 {% set i = i + 1 %}
