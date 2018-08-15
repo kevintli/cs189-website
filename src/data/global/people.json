@@ -9,17 +9,15 @@
       "title": "Instructor"
     }
   ],
-  "head_tas": [
+  "tas": [
     {
       "email": "rakelly@eecs.berkeley.edu",
-      "image": "https://people.eecs.berkeley.edu/~rakelly/kate_circle.png",
+      "image": "/deeprlcourse/static/images/kate_kauai.png",
       "link": "https://people.eecs.berkeley.edu/~rakelly/",
       "name": "Kate Rakelly",
       "office_hours": "Tue 11am - 12pm (Soda 651)",
       "title": "Head GSI"
-    }
-  ],
-  "tas": [
+    },
     {
       "email": "gkahn@berkeley.edu",
       "image": "https://people.eecs.berkeley.edu/~gregoryk/images/portrait.jpg",
