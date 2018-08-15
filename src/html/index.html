@@ -54,8 +54,8 @@ Course Website Design
             {% for hw in homeworks %}
                 {% if week.number in hw.weeks %}
                     {% if hw.active == true %}
-                    <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
-            .number}}</a>{% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+                    <li><a href="/deeprlcourse/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
+            .number}}</a>{% if hw.solution %} (<a href="/deeprlcourse/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
                     {% else %}
                     <li class="inactive">Homework {{hw.number}}</li>
                     {% endif %}
@@ -64,8 +64,8 @@ Course Website Design
             {% for slide in slides %}
                 {% if week.number in slide.weeks %}
                     {% if slide.active == true %}
-                    <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Slides {{slide
-            .number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>)</li>
+                    <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-handout.pdf">Slides {{slide
+            .number}}</a> (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>)</li>
                     {% else %}
                     <li class="inactive">Slides {{slide
             .number}}</li>
@@ -86,14 +86,14 @@ Course Website Design
     <section class="standard-text wrap-container">
         <div class="wrap">
             <h2 class="standard-title">Homeworks</h2>
-            <p>{{ syllabus.homeworks.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
+            <p>{{ syllabus.homeworks.short }} See <a href="/deeprlcourse/syllabus#materials">Syllabus</a> for more information.</p>
             <ul class="lists two-col animate-3" resource="homeworks">
             {% for hw in homeworks %}
                 {% set sorted_hw_weeks = hw.weeks | sort %}
                 {% set min_hw_week = sorted_hw_weeks[0] %}
                 {% if min_hw_week <= weeks.current and hw.active == true %}
-                <li><a href="/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
-                .number}}: {{ hw.title }}</a>{% if hw.solution %} (<a href="/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+                <li><a href="/deeprlcourse/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
+                .number}}: {{ hw.title }}</a>{% if hw.solution %} (<a href="/deeprlcourse/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
                 {% else %}
                 <li class="inactive">Homework {{ hw.number }}: {{ hw.title }}</li>
                 {% endif %}
@@ -105,14 +105,14 @@ Course Website Design
     <section class="standard-text wrap-container">
         <div class="wrap">
             <h2 class="standard-title">Lecture Slides</h2>
-            <p>{{ syllabus.slides.short }} See <a href="/syllabus#materials">Syllabus</a> for more information.</p>
+            <p>{{ syllabus.slides.short }} See <a href="/deeprlcourse/syllabus#materials">Syllabus</a> for more information.</p>
             <ul class="lists two-col animate-3" resource="slides">
             {% for slide in slides %}
                 {% set sorted_slide_weeks = slide.weeks | sort %}
                 {% set min_slide_week = sorted_slide_weeks[0] %}
                 {% if min_slide_week <= weeks.current and slide.active == true %}
-                <li><a href="/static/slides/lec-{{ slide.number }}-handout.pdf">Lecture {{slide
-                .number}}</a> (<a href="/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>): {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
+                <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-handout.pdf">Lecture {{slide
+                .number}}</a> (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>): {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
                 {% else %}
                 <li class="inactive">Slide {{ slide.number }}: {{ slide.title
                     }}</li>

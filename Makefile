@@ -5,13 +5,16 @@ all:
 
 preview:
 	python compile.py preview && \
+  mv published deeprlcourse && \
+  mkdir published && \
+  mv deeprlcourse published/ && \
 	cd published && \
 	python -m http.server
 
 # usage: make deploy m="commit message"
 deploy:
 	python compile.py production && \
-	cd ../berkeleydeeprlcourse.github.io && \
+	cd ../staging && \
 	git pull --force && \
 	cp -r ../staging/published/* . && \
 	cp ../staging/published/.gitignore . && \

@@ -50,9 +50,9 @@ for directory in (args.static,):
 # Update CNAME if needed and copy
 with open('CNAME', 'w') as cname:
     if args.mode == 'production':
-        cname.write('http://rail.eecs.berkeley.edu/deeprlcourse')
+        cname.write('') # TODO
     elif args.mode == 'staging':
-        cname.write('berkeleydeeprlcourse.github.io/staging')
+        cname.write('') # TODO
 shutil.copy2('CNAME', os.path.join(args.out, 'CNAME'))
 
 # Minify js
