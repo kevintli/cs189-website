@@ -19,7 +19,7 @@ If the staging area matches your expectations, you may then deploy
 directly to production. Run the following to publish to
 [http://rail.eecs.berkeley.edu/deeprlcourse](http://rail.eecs.berkeley.edu/deeprlcourse).
 
-    make deploy m="<message describing change>"
+    scp published/* [yourusername]@login.eecs.berkeley.edu:/project/eecs/rail/www/deeprlcourse/
 
 Your edits go live instantaneously.
 
