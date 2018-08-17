@@ -26,60 +26,68 @@ Course Website Design
                 </p>
             </div>
             <div class="head-people">
+              <ul class="lists">
                 {% for person in people.faculty %}
-                <div class="person col-md-6 col-sm-12 col-xs-12">
-                    <div class="person-thumbnail">
-                        <div class="person-avatar">
-                            <span class="person-image"
-                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
-                        </div>
-                    </div>
-                    <div class="person-text">
-                        <h2 class="person-name">{{ person.title }}
-                            <a href="{{ person.link }}">{{ person.name }}</a>
-                        </h2>
-                        <p><span>{{ person.email }}</span></p>
-                        <p>Office Hours: {{ person.office_hours }}</p>
-                    </div>
-                </div>
+                <li>
+                  <div class="person col-md-6 col-sm-12 col-xs-12">
+                      <div class="person-thumbnail">
+                          <div class="person-avatar">
+                              <span class="person-image"
+                                    style="background: url('{{person.image}}'); background-size:cover;"></span>
+                          </div>
+                      </div>
+                      <div class="person-text">
+                          <h2 class="person-name">{{ person.title }}
+                              <a href="{{ person.link }}">{{ person.name }}</a>
+                          </h2>
+                          <p><span>{{ person.email }}</span></p>
+                          <p>Office Hours: {{ person.office_hours }}</p>
+                      </div>
+                  </div>
+                </li>
                 {% endfor %}
                 {% for person in people.head_tas %}
-                <div class="person col-md-6 col-sm-12 col-xs-12">
-                    <div class="person-thumbnail">
-                        <div class="person-avatar">
-                            <span class="person-image"
-                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
-                        </div>
-                    </div>
-                    <div class="person-text">
-                        <h2 class="person-name">{{ person.title }}
-                            <a href="{{ person.link }}">{{ person.name }}</a>
-                        </h2>
-                        <p><span>{{ person.email }}</span></p>
-                        <p>Office Hours: {{ person.office_hours }}</p>
-                    </div>
-                </div>
+                <li>
+                  <div class="person col-md-6 col-sm-12 col-xs-12">
+                      <div class="person-thumbnail">
+                          <div class="person-avatar">
+                              <span class="person-image"
+                                    style="background: url('{{person.image}}'); background-size:cover;"></span>
+                          </div>
+                      </div>
+                      <div class="person-text">
+                          <h2 class="person-name">{{ person.title }}
+                              <a href="{{ person.link }}">{{ person.name }}</a>
+                          </h2>
+                          <p><span>{{ person.email }}</span></p>
+                          <p>Office Hours: {{ person.office_hours }}</p>
+                      </div>
+                  </div>
+                </li>
                 {% endfor %}
                 {% for person in people.tas %}
-                <div class="person col-md-6 col-sm-12 col-xs-12">
-                    <div class="person-thumbnail">
-                        <div class="person-avatar">
-                            <span class="person-image"
-                                  style="background: url('{{person.image}}'); background-size:cover;"></span>
-                        </div>
-                    </div>
-                    <div class="person-text">
-                        <h2 class="person-name">{{ person.title }}
-                            <a href="{{ person.link }}">{{ person.name }}</a>
-                        </h2>
-                        <p><span>{{ person.email }}</span></p>
-                        {% if person.office_hours %}
-                          <p>Office Hours: {{ person.office_hours }}</p>
-                        {% else %}
-                        {% endif %}
-                    </div>
-                </div>
+                <li>
+                  <div class="person col-md-6 col-sm-12 col-xs-12">
+                      <div class="person-thumbnail">
+                          <div class="person-avatar">
+                              <span class="person-image"
+                                    style="background: url('{{person.image}}'); background-size:cover;"></span>
+                          </div>
+                      </div>
+                      <div class="person-text">
+                          <h2 class="person-name">{{ person.title }}
+                              <a href="{{ person.link }}">{{ person.name }}</a>
+                          </h2>
+                          <p><span>{{ person.email }}</span></p>
+                          {% if person.office_hours %}
+                            <p>Office Hours: {{ person.office_hours }}</p>
+                          {% else %}
+                          {% endif %}
+                      </div>
+                  </div>
+                </li>
                 {% endfor %}
+              </ul>
             </div>
         </div>
     </section>
@@ -96,21 +104,18 @@ Course Website Design
             {% for hw in homeworks %}
                 {% if week.number in hw.weeks %}
                     {% if hw.active == true %}
-                    <li><a href="/deeprlcourse/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw
-            .number}}</a>{% if hw.solution %} (<a href="/deeprlcourse/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
+                    <li><a href="/deeprlcourse/static/homeworks/hw{{ hw.number }}.pdf">Homework {{ hw.number}}: {{hw.title}}</a>{% if hw.solution %} (<a href="/deeprlcourse/static/homeworks/hw{{hw.number}}-sol.pdf">solution</a>){% endif %}</li>
                     {% else %}
-                    <li class="inactive">Homework {{hw.number}}</li>
+                    <li class="inactive">Homework {{hw.number}}: {{hw.title}}</li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
             {% for slide in slides %}
                 {% if week.number in slide.weeks %}
                     {% if slide.active == true %}
-                    <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-handout.pdf">Slides {{slide
-            .number}}</a> (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>)</li>
+                    <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-handout.pdf">Slides {{slide.number}}: {{slide.title}}</a> (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">full</a>) (<a href="/deeprlcourse/static/slides/lec-{{ slide.number }}-6up.pdf">6up</a>)</li>
                     {% else %}
-                    <li class="inactive">Slides {{slide
-            .number}}</li>
+                    <li class="inactive">Slides {{slide.number}}: {{slide.title}}</li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
