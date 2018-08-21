@@ -100,7 +100,7 @@ Course Website Design
             <h2 class="highlighted-title">{{ week.title }}</h2>
             <p class="highlighted-byline">{{ week.date_range }}</p>
             <span class="dividing-bar"></span>
-            <ul class="lists two-col">
+            <ul class="lists two-col animate-3">
             {% for hw in homeworks %}
                 {% if week.number in hw.weeks %}
                     {% if hw.active == true %}
@@ -146,7 +146,7 @@ Course Website Design
                 {% endif %}
             {% endfor %}
             </ul>
-            <div class="trigger" resource="homeworks">Expand</div>
+            <!--<div class="trigger" resource="homeworks">Expand</div>-->
         </div>
     </section>
     <section class="standard-text wrap-container">
@@ -166,7 +166,7 @@ Course Website Design
                 {% endif %}
             {% endfor %}
             </ul>
-            <div class="trigger" resource="slides">Expand</div>
+            <!--<div class="trigger" resource="slides">Expand</div>-->
         </div>
     </section>
 </main>
