@@ -113,9 +113,9 @@ Course Website Design
             {% for slide in slides %}
                 {% if week.number in slide.weeks %}
                     {% if slide.active == true %}
-                    <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">Slides {{slide.number}}: {{slide.title}}</a></li>
+                    <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide.number}}: {{slide.title}}</a></li>
                     {% else %}
-                    <li class="inactive">Slides {{slide.number}}: {{slide.title}}</li>
+                    <li class="inactive">Lecture {{slide.number}}: {{slide.title}}</li>
                     {% endif %}
                 {% endif %}
             {% endfor %}
