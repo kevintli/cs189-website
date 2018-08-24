@@ -159,7 +159,7 @@ Course Website Design
                 {% set min_slide_week = sorted_slide_weeks[0] %}
                 {% if min_slide_week <= weeks.current and slide.active == true %}
                 <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide
-                .number}}</a>: {{ slide.title }} {% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
+                    .number}}: {{ slide.title }} </a>{% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
                 {% else %}
                 <li class="inactive">Lecture {{ slide.number }}: {{ slide.title
                     }}</li>
