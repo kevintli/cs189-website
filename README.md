@@ -136,3 +136,7 @@ respective default formats:
 - Slides: `lec-{number}-{format}.pdf` where `format` is `handout` or `6up` (e.g., `lec-1-handout.pdf`, `lec-12-6up.pdf`)
 
 All materials can be found under `src/static/`.
+
+# Credit
+
+[https://github.com/alvinwan/staging](https://github.com/alvinwan/staging)
