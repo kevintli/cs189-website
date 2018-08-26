@@ -5,7 +5,7 @@ import os
 import argparse
 import json
 import glob
-import sass
+#import sass
 import shutil
 
 from jsmin import jsmin
@@ -24,9 +24,9 @@ parser.add_argument('--data', type=str,
 parser.add_argument('--global_json', type=str,
                     help='Path to directory containing global JSON data',
                     default='./src/data/global')
-parser.add_argument('--sass', type=str,
-                    help='Path to directory containing SASS',
-                    default='./src/scss')
+#parser.add_argument('--sass', type=str,
+#                    help='Path to directory containing SASS',
+#                    default='./src/scss')
 parser.add_argument('--static', type=str,
                     help='Path to directory containing statics',
                     default='./src/static')
@@ -35,9 +35,9 @@ parser.add_argument('--js', type=str,
                     default='./src/js')
 args = parser.parse_args()
 
-os.makedirs(args.out, exist_ok=True)
-os.makedirs(os.path.join(args.out, 'css'), exist_ok=True)
-os.makedirs(os.path.join(args.out, 'js'), exist_ok=True)
+os.makedirs(args.out)#, exist_ok=True)
+os.makedirs(os.path.join(args.out, 'css'))#, exist_ok=True)
+os.makedirs(os.path.join(args.out, 'js'))#, exist_ok=True)
 env = jinja2.Environment(loader=jinja2.FileSystemLoader(args.html))
 
 # Copy all static/ into dist folder.
@@ -61,10 +61,10 @@ with open(os.path.join(args.js, 'script.js')) as js_file:
         f.write(jsmin(js_file.read()))
 
 # Compile css
-with open(os.path.join(args.out, 'css', 'style.min.css'), 'w') as f:
-    f.write(sass.compile(
-        string=open(os.path.join(args.sass, 'style.scss')).read(),
-        include_paths=[args.sass]))
+#with open(os.path.join(args.out, 'css', 'style.min.css'), 'w') as f:
+#    f.write(sass.compile(
+#        string=open(os.path.join(args.sass, 'style.scss')).read(),
+#        include_paths=[args.sass]))
 
 # Generate global context
 global_context = {}
@@ -97,7 +97,7 @@ for filepath in glob.iglob(os.path.join(args.html, '*.html')):
     out_path = filepath.replace(args.html, args.out)
     if not out_path.endswith('index.html'):
         out_path = out_path.replace('.html', '/index.html')
-        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        os.makedirs(os.path.dirname(out_path))#, exist_ok=True)
     filename = os.path.basename(filepath)
     with open(out_path, 'w') as f:
         f.write(env.get_template(filename).render(context))
