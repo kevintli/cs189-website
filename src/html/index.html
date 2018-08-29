@@ -114,7 +114,13 @@ Course Website Design
             {% for slide in slides %}
                 {% if week.number in slide.weeks %}
                     {% if slide.active == true %}
-                    <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide.number}}: {{slide.title}}</a></li>
+                    <li>
+                      <a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide.number}}: {{slide.title}}</a>
+                      {% if slide.notebook %}
+                      <a href="{{slide.notebook}}">(notebook)</a>
+                      {% else %}
+                      {% endif %}
+                    </li>
                     {% else %}
                     <li class="inactive">Lecture {{slide.number}}: {{slide.title}}</li>
                     {% endif %}
@@ -159,8 +165,13 @@ Course Website Design
                 {% set sorted_slide_weeks = slide.weeks | sort %}
                 {% set min_slide_week = sorted_slide_weeks[0] %}
                 {% if min_slide_week <= weeks.current and slide.active == true %}
-                <li><a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide
-                    .number}}: {{ slide.title }} </a>{% if slide.draft %}<span class="draft">(Draft)</span>{% endif %}</li>
+                  <li>
+                    <a href="/deeprlcourse/static/slides/lec-{{ slide.number }}.pdf">Lecture {{slide.number}}: {{slide.title}}</a>
+                    {% if slide.notebook %}
+                    <a href="{{slide.notebook}}">(notebook)</a>
+                    {% else %}
+                    {% endif %}
+                  </li>
                 {% else %}
                 <li class="inactive">Lecture {{ slide.number }}: {{ slide.title
                     }}</li>

@@ -23,8 +23,9 @@
     "weeks": [
       2
     ],
+    "notebook": "/deeprlcourse/static/misc/TF_lecture.ipynb",
     "draft": false,
-    "active": false
+    "active": true
   },
   {
     "number": 4,
