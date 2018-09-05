@@ -1,5 +1,5 @@
 {
-  "current": 2,
+  "current": 3,
   "all": [
     {
       "number": 1,
@@ -8,8 +8,13 @@
     },
     {
       "number": 2,
-      "title": "",
+      "title": "Intro to RL",
       "date_range": "Monday, August 27 - Friday, August 31"
+    },
+    {
+      "number": 3,
+      "title": "Policy Gradients and Actor Critic",
+      "date_range": "Monday, September 3 - Friday, September 7"
     }
   ]
 }
