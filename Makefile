@@ -15,7 +15,7 @@ preview:
 staging:
 	git pull && \
 	rm -rf published && \
-	python compile.py staging && \
+	python3 compile.py staging && \
 	git add . && \
 	git commit -m "stage: $(m)" --allow-empty && \
 	git push && \
