@@ -61,13 +61,10 @@ with open(os.path.join(args.js, 'script.js')) as js_file:
         f.write(jsmin(js_file.read()))
 
 # Compile css
-# sid: commenting out this block messes with the local preview's style files
-"""
 with open(os.path.join(args.out, 'css', 'style.min.css'), 'w') as f:
     f.write(sass.compile(
         string=open(os.path.join(args.sass, 'style.scss')).read(),
         include_paths=[args.sass]))
-"""
 
 # Generate global context
 global_context = {}
