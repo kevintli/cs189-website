@@ -43,7 +43,7 @@
       3
     ],
     "draft": false,
-    "active": false
+    "active": true
   },
   {
     "number": 6,
@@ -52,11 +52,11 @@
       3
     ],
     "draft": false,
-    "active": false
+    "active": true
   },
   {
     "number": 7,
-    "title": "Advanced Q-Learning Algorithms",
+    "title": "Value Functions and Q-Learning",
     "weeks": [
       4
     ],
@@ -65,7 +65,7 @@
   },
   {
     "number": 8,
-    "title": "Advanced Actor-Critic Algorithms",
+    "title": "Advanced Q-Learning Algorithms",
     "weeks": [
       4
     ],
@@ -92,7 +92,7 @@
   },
   {
     "number": 11,
-    "title": "Learning Policies by Imitating Optimal Controllers",
+    "title": "Model-Based Reinforcement Learning",
     "weeks": [
       6
     ],
@@ -101,7 +101,7 @@
   },
   {
     "number": 12,
-    "title": "Learning Dynamical Systems from Data",
+    "title": "Advanced Model Learning and Images",
     "weeks": [
       6
     ],
@@ -110,7 +110,7 @@
   },
   {
     "number": 13,
-    "title": "Advanced Model Learning and Images",
+    "title": "Learning Policies by Imitating Other Policies",
     "weeks": [
       7
     ],
