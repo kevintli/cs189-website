@@ -15,6 +15,11 @@
       "number": 3,
       "title": "Policy Gradients and Actor Critic",
       "date_range": "Monday, September 3 - Friday, September 7"
+    },
+    {
+      "number": 4,
+      "title": "Q-Learning",
+      "date_range": "Monday, September 9 - Friday, September 14"
     }
   ]
 }
