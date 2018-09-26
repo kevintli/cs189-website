@@ -25,6 +25,11 @@
       "number": 5,
       "title": "Advanced Policy Gradients and Control",
       "date_range": "Monday, September 17 - Friday, September 21"
+    },
+    {
+      "number": 6,
+      "title": "Model Based Reinforcement Learning",
+      "date_range": "Monday, September 23 - Friday, September 28"
     }
   ]
 }
