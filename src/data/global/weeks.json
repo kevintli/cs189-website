@@ -1,5 +1,5 @@
 {
-  "current": 6,
+  "current": 7,
   "all": [
     {
       "number": 1,
@@ -30,6 +30,11 @@
       "number": 6,
       "title": "Model Based Reinforcement Learning",
       "date_range": "Monday, September 23 - Friday, September 28"
+    },
+    {
+      "number": 7,
+      "title": "Model Based RL and Probabilistic Models",
+      "date_range": "Monday, October 1 - Friday, October 5"
     }
   ]
 }
