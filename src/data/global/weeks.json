@@ -1,5 +1,5 @@
 {
-  "current": 7,
+  "current": 9,
   "all": [
     {
       "number": 1,
@@ -35,6 +35,16 @@
       "number": 7,
       "title": "Model Based RL and Probabilistic Models",
       "date_range": "Monday, October 1 - Friday, October 5"
+    },
+    {
+      "number": 8,
+      "title": "Probabilistic Modeling of Behavior",
+      "date_range": "Monday, October 8 - Friday, October 12"
+    },
+    {
+      "number": 9,
+      "title": "Exploration",
+      "date_range": "Monday, October 15 - Friday, October 19"
     }
   ]
 }
