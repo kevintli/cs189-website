@@ -1,2 +1,3 @@
+jsmin
 libsass==0.13.2
 jinja2==2.9.4

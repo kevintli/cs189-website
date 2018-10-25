@@ -36,12 +36,30 @@
     "solution": false
   },
   {
-    "number": "5",
-    "title": "Advanced Topics",
+    "number": "5a",
+    "title": "Advanced Topics - Exploration",
     "weeks": [
       9, 10, 11, 12
     ],
     "active": true,
+    "solution": false
+  },
+  {
+    "number": "5b",
+    "title": "Advanced Topics - Soft Actor-Critic",
+    "weeks": [
+      9, 10, 11, 12
+    ],
+    "active": false,
+    "solution": false
+  },
+  {
+    "number": "5c",
+    "title": "Advanced Topics - Meta-Learning",
+    "weeks": [
+      9, 10, 11, 12
+    ],
+    "active": false,
     "solution": false
   }
 ]
