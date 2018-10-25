@@ -32,7 +32,7 @@
     "weeks": [
       7, 8, 9, 10
     ],
-    "active": false,
+    "active": true,
     "solution": false
   },
   {
@@ -41,7 +41,7 @@
     "weeks": [
       9, 10, 11, 12
     ],
-    "active": false,
+    "active": true,
     "solution": false
   }
 ]
