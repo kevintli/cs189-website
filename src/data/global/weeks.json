@@ -1,5 +1,5 @@
 {
-  "current": 4,
+  "current": 9,
   "all": [
     {
       "number": 1,
@@ -20,6 +20,31 @@
       "number": 4,
       "title": "Q-Learning",
       "date_range": "Monday, September 9 - Friday, September 14"
+    },
+    {
+      "number": 5,
+      "title": "Advanced Policy Gradients and Control",
+      "date_range": "Monday, September 17 - Friday, September 21"
+    },
+    {
+      "number": 6,
+      "title": "Model Based Reinforcement Learning",
+      "date_range": "Monday, September 23 - Friday, September 28"
+    },
+    {
+      "number": 7,
+      "title": "Model Based RL and Probabilistic Models",
+      "date_range": "Monday, October 1 - Friday, October 5"
+    },
+    {
+      "number": 8,
+      "title": "Probabilistic Modeling of Behavior",
+      "date_range": "Monday, October 8 - Friday, October 12"
+    },
+    {
+      "number": 9,
+      "title": "Exploration",
+      "date_range": "Monday, October 15 - Friday, October 19"
     }
   ]
 }
