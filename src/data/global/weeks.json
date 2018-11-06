@@ -1,5 +1,5 @@
 {
-  "current": 11,
+  "current": 12,
   "all": [
     {
       "number": 1,
@@ -54,6 +54,11 @@
     {
       "number": 11,
       "title": "RL Systems, Advanced Imitation, and Open Problems",
+      "date_range": "Monday, October 29 - Friday, November 2"
+    },
+    {
+      "number": 12,
+      "title": "Guest Lectures",
       "date_range": "Monday, November 5 - Friday, November 9"
     }
   ]
