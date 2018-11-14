@@ -218,12 +218,12 @@
   },
   {
     "number": 25,
-    "title": "Guest Lecture: Quoc Le",
+    "title": "Guest Lecture: Quoc Le & Barret Zoph",
     "weeks": [
       13
     ],
     "draft": false,
-    "active": false
+    "active": true
   },
   {
     "number": 26,

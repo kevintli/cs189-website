@@ -1,5 +1,5 @@
 {
-  "current": 12,
+  "current": 13,
   "all": [
     {
       "number": 1,
@@ -60,6 +60,11 @@
       "number": 12,
       "title": "Guest Lectures",
       "date_range": "Monday, November 5 - Friday, November 9"
+    },
+    {
+      "number": 13,
+      "title": "Guest Lectures",
+      "date_range": "Monday, November 12 - Friday, November 16"
     }
   ]
 }
