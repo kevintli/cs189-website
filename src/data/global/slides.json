@@ -209,12 +209,12 @@
   },
   {
     "number": 24,
-    "title": "Guest Lecture: Kate Rakelly & Gregory Kahn",
+    "title": "Guest Lecture: Gregory Kahn",
     "weeks": [
       12
     ],
     "draft": false,
-    "active": false
+    "active": true
   },
   {
     "number": 25,
