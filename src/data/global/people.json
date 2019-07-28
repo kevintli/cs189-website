@@ -5,49 +5,42 @@
       "image": "https://people.eecs.berkeley.edu/~svlevine/images/portrait_lab_small.png",
       "link": "https://people.eecs.berkeley.edu/~svlevine/",
       "name": "Sergey Levine",
-      "office_hours": "Wed 11:30am - 12:30pm (Soda 341B)",
+      "office_hours": "TBD",
       "title": "Instructor"
     }
   ],
   "tas": [
     {
-      "email": "rakelly@eecs.berkeley.edu",
-      "image": "/deeprlcourse/static/images/kate_kauai.png",
-      "link": "https://people.eecs.berkeley.edu/~rakelly/",
-      "name": "Kate Rakelly",
-      "office_hours": "Tue 11am - 12pm (Soda 651)",
+      "email": "febert@eecs.berkeley.edu",
+      "image": "https://febert.github.io/frederikebert_files/me.jpg",
+      "link": "https://febert.github.io/",
+      "name": "Frederik  Ebert",
+      "office_hours": "TBD",
       "title": "Head GSI"
     },
     {
-      "email": "gkahn@berkeley.edu",
-      "image": "https://people.eecs.berkeley.edu/~gregoryk/images/portrait.jpg",
-      "link": "https://people.eecs.berkeley.edu/~gregoryk/",
-      "name": "Gregory Kahn",
-      "office_hours": "Thu 1pm - 2pm (Soda 411)",
+      "email": "avisingh@berkeley.edu",
+      "image": "http://people.eecs.berkeley.edu/~avisingh/images/bio-photo.jpg",
+      "link": "https://people.eecs.berkeley.edu/~avisingh/",
+      "name": "Avi Singh",
+      "office_hours": "TBD)",
       "title": "GSI"
     },
     {
-      "email": "sgr@berkeley.edu",
-      "image": "https://people.eecs.berkeley.edu/~reddy/files/189pic.jpg",
-      "link": "https://people.eecs.berkeley.edu/~reddy/",
-      "name": "Sid Reddy",
-      "office_hours": "Fri 3pm - 4pm (Soda 411)",
+      "email": "kelvinxu@berkeley.edu",
+      "image": "https://kelvinxu.github.io/kelvin_xu.jpg",
+      "link": "https://kelvinxu.github.io/",
+      "name": "Kelvin Xu",
+      "office_hours": "TBD",
       "title": "GSI"
     },
     {
-      "email": "mbchang@berkeley.edu",
-      "image": "http://mbchang.github.io/assets/profile-circle-10.png",
-      "link": "http://mbchang.github.io/",
-      "name": "Michael Chang",
-      "office_hours": "Mon 5pm - 6pm (Soda 341B)",
+      "email": "nagaban2@berkeley.edu",
+      "image": "https://people.eecs.berkeley.edu/~nagaban2/resources/anusha.png",
+      "link": "https://people.eecs.berkeley.edu/~nagaban2/",
+      "name": "Anusha Nagabandi",
+      "office_hours": "TBD",
       "title": "GSI"
-    },
-    {
-      "email": "snasiriany@berkeley.edu",
-      "image": "http://snasiriany.me/files/profile.png",
-      "link": "http://snasiriany.me",
-      "name": "Soroush Nasiriany",
-      "title": "uGSI"
     }
   ]
 }

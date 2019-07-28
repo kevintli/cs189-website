@@ -1,70 +1,10 @@
 {
-  "current": 13,
+  "current": 1,
   "all": [
     {
       "number": 1,
       "title": "Course Introduction, Imitation Learning",
-      "date_range": "Wednesday, August 22 - Friday, August 24"
-    },
-    {
-      "number": 2,
-      "title": "Intro to RL",
-      "date_range": "Monday, August 27 - Friday, August 31"
-    },
-    {
-      "number": 3,
-      "title": "Policy Gradients and Actor Critic",
-      "date_range": "Monday, September 3 - Friday, September 7"
-    },
-    {
-      "number": 4,
-      "title": "Q-Learning",
-      "date_range": "Monday, September 9 - Friday, September 14"
-    },
-    {
-      "number": 5,
-      "title": "Advanced Policy Gradients and Control",
-      "date_range": "Monday, September 17 - Friday, September 21"
-    },
-    {
-      "number": 6,
-      "title": "Model Based Reinforcement Learning",
-      "date_range": "Monday, September 23 - Friday, September 28"
-    },
-    {
-      "number": 7,
-      "title": "Model Based RL and Probabilistic Models",
-      "date_range": "Monday, October 1 - Friday, October 5"
-    },
-    {
-      "number": 8,
-      "title": "Probabilistic Modeling of Behavior",
-      "date_range": "Monday, October 8 - Friday, October 12"
-    },
-    {
-      "number": 9,
-      "title": "Exploration",
-      "date_range": "Monday, October 15 - Friday, October 19"
-    },
-    {
-      "number": 10,
-      "title": "Exploration, Transfer, and Multi-task Learning",
-      "date_range": "Monday, October 22 - Friday, Ocober 26"
-    },
-    {
-      "number": 11,
-      "title": "RL Systems, Advanced Imitation, and Open Problems",
-      "date_range": "Monday, October 29 - Friday, November 2"
-    },
-    {
-      "number": 12,
-      "title": "Guest Lectures",
-      "date_range": "Monday, November 5 - Friday, November 9"
-    },
-    {
-      "number": 13,
-      "title": "Guest Lectures",
-      "date_range": "Monday, November 12 - Friday, November 16"
+      "date_range": "Wednesday, August 28 - Friday, August 30"
     }
   ]
 }
