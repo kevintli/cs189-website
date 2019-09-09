@@ -1,5 +1,5 @@
 {
-  "current": 2,
+  "current": 3,
   "all": [
     {
       "number": 1,
@@ -10,6 +10,11 @@
       "number": 2,
       "title": "Imitation Learning",
       "date_range": "Monday, September 2 - Friday, September 7"
+    },
+    {
+      "number": 3,
+      "title": "Intro to RL",
+      "date_range": "Monday, September 9 - Friday, September 13"
     }
   ]
 }

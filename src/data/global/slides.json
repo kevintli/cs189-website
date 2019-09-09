@@ -16,5 +16,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 3,
+    "title": "TensorFlow and Neural Nets Review Session",
+    "weeks": [
+      3
+    ],
+    "notebook": "/deeprlcourse-fa18/static/misc/TF_lecture.ipynb",
+    "draft": false,
+    "active": true
   }
 ]
