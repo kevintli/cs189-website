@@ -26,5 +26,15 @@
     "notebook": "/deeprlcourse-fa18/static/misc/TF_lecture.ipynb",
     "draft": false,
     "active": true
+  },
+  {
+    "number": 4,
+    "title": "Introduction to Reinforcement Learning",
+    "weeks": [
+      3
+    ],
+    "draft": false,
+    "active": true
   }
+
 ]
