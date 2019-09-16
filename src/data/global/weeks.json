@@ -15,6 +15,11 @@
       "number": 3,
       "title": "Intro to RL",
       "date_range": "Monday, September 9 - Friday, September 13"
+    },
+    {
+      "number": 4,
+      "title": "Policy Gradients and Actor Critic",
+      "date_range": "Monday, September 16 - Friday, September 20"
     }
   ]
 }

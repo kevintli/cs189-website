@@ -49,10 +49,6 @@
   ],
   "misclinks": [
     {
-      "title": "A collection of deep learning resources",
-      "url": "http://www.jeremydjacksonphd.com/?cat=7"
-    },
-    {
       "title": "Data visualization handout",
       "url": "/deeprlcourse/static/misc/viz.pdf"
     }
