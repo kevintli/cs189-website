@@ -44,6 +44,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 5,
+    "title": "Actor-Critic Algorithms",
+    "weeks": [
+      4
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
