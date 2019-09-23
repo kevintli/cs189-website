@@ -1,5 +1,5 @@
 {
-  "current": 4,
+  "current": 5,
   "all": [
     {
       "number": 1,
@@ -20,6 +20,26 @@
       "number": 4,
       "title": "Policy Gradients and Actor Critic",
       "date_range": "Monday, September 16 - Friday, September 20"
+    },
+    {
+      "number": 5,
+      "title": "Value Functions and Q-learning",
+      "date_range": "Monday, September 23 - Friday, September 27"
+    },
+    {
+      "number": 6,
+      "title": "Advanced Policy Gradients and Model-based learning",
+      "date_range": "Monday, September 30 - Friday, October 4"
+    },
+    {
+      "number": 7,
+      "title": "Advanced Model Learning and Imitating Optimal Controllers",
+      "date_range": "Monday, October 7 - Friday, October 11"
+    },
+    {
+      "number": 8,
+      "title": "Connection between inference and control",
+      "date_range": "Monday, October 14 - Friday, October 18"
     }
   ]
 }

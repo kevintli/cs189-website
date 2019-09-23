@@ -53,6 +53,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 7,
+    "title": "Value Function Methods",
+    "weeks": [
+      5
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
