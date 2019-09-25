@@ -62,6 +62,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 8,
+    "title": "Deep RL with Q-functions",
+    "weeks": [
+      5
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
