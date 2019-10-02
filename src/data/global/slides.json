@@ -80,6 +80,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 10,
+    "title": "Model-based Planning",
+    "weeks": [
+      6
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
