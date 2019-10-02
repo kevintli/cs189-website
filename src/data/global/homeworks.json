@@ -16,5 +16,14 @@
     ],
     "active": true,
     "solution": false
+  },
+  {
+    "number": "3",
+    "title": "DQN and Actor-Critic",
+    "weeks": [
+      6,7,8
+    ],
+    "active": true,
+    "solution": false
   }
 ]
