@@ -89,6 +89,24 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 11,
+    "title": "Model-based Reinforcement Learning",
+    "weeks": [
+      7
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 11,
+    "title": "Model-based Policy Learning",
+    "weeks": [
+      8
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
