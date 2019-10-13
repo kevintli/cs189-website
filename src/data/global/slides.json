@@ -107,6 +107,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 13,
+    "title": "Variational Inference and Generative Models",
+    "weeks": [
+      8
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
