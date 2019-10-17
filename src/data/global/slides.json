@@ -116,6 +116,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 14,
+    "title": "Control as Inference",
+    "weeks": [
+      8
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
