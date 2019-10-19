@@ -25,5 +25,14 @@
     ],
     "active": true,
     "solution": false
+  },
+  {
+    "number": "4",
+    "title": "Model-based RL",
+    "weeks": [
+      8,9,10
+    ],
+    "active": true,
+    "solution": false
   }
 ]
