@@ -1,5 +1,5 @@
 {
-  "current": 8,
+  "current": 9,
   "all": [
     {
       "number": 1,
@@ -40,6 +40,16 @@
       "number": 8,
       "title": "Connection between inference and control",
       "date_range": "Monday, October 14 - Friday, October 18"
+    },
+    {
+      "number": 9,
+      "title": "Inverse Reinforcement Learning and multi-task learning",
+      "date_range": "Monday, October 21 - Friday, October 25"
+    },
+    {
+      "number": 10,
+      "title": "Meta-learning and parallelism",
+      "date_range": "Monday, October 28 - Friday, November 1"
     }
   ]
 }

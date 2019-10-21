@@ -125,6 +125,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 15,
+    "title": "Inverse Reinforcement Learning",
+    "weeks": [
+      9
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
