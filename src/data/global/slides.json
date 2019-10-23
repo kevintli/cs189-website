@@ -134,6 +134,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 16,
+    "title": "Transfer and Multi-task Learning",
+    "weeks": [
+      9
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
