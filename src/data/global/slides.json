@@ -143,6 +143,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 17,
+    "title": "Exploration (Part 1)",
+    "weeks": [
+      11
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]

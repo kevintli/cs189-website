@@ -1,5 +1,5 @@
 {
-  "current": 9,
+  "current": 11,
   "all": [
     {
       "number": 1,
@@ -48,8 +48,13 @@
     },
     {
       "number": 10,
-      "title": "Meta-learning and parallelism",
+      "title": "Parallelism for RL",
       "date_range": "Monday, October 28 - Friday, November 1"
+    },
+    {
+      "number": 11,
+      "title": "Exploration",
+      "date_range": "Monday, November 4 - Friday, November 8"
     }
   ]
 }
