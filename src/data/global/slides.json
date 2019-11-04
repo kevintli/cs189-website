@@ -146,6 +146,15 @@
   },
   {
     "number": 17,
+    "title": "Distributed RL",
+    "weeks": [
+      10
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 18,
     "title": "Exploration (Part 1)",
     "weeks": [
       11
