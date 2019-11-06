@@ -161,6 +161,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 19,
+    "title": "Exploration (Part 2)",
+    "weeks": [
+      11
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
