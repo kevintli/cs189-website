@@ -179,6 +179,15 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 21,
+    "title": "Information Theory, Open Problems",
+    "weeks": [
+      13
+    ],
+    "draft": false,
+    "active": true
   }
 
 ]
