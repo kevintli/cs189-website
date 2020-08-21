@@ -12,35 +12,35 @@
   "tas": [
     {
       "email": "janner@eecs.berkeley.edu",
-      "image": "https://people.eecs.berkeley.edu/~janner/images/headshot_circle.png",
-      "link": "https://people.eecs.berkeley.edu/~janner/",
+      "image": "https://febert.github.io/frederikebert_files/me.jpg",
+      "link": "https://febert.github.io/",
       "name": "Michael Janner",
       "office_hours": "TBD",
       "title": "Head GSI"
     },
     {
       "email": "Vitchyr Pong",
-      "image": "https://people.eecs.berkeley.edu/~vitchyr/vitchyrpong_headshot.jpg",
-      "link": "https://people.eecs.berkeley.edu/~vitchyr/",
+      "image": "http://people.eecs.berkeley.edu/~avisingh/images/bio-photo.jpg",
+      "link": "https://people.eecs.berkeley.edu/~avisingh/",
       "name": "Vitchyr Pong",
       "office_hours": "TBD",
       "title": "GSI"
     },
     {
       "email": "aviralk@berkeley.edu",
-      "image": "https://aviralkumar2907.github.io/image.jpg",
+      "image": "https://aviralkumar2907.github.io/kelvin_xu.jpg",
       "link": "https://aviralkumar2907.github.io/",
       "name": "Aviral Kumar",
       "office_hours": "TBD",
       "title": "GSI"
     },
     {
-      "email": "khazatsky@berkeley.edu",
-      "image": "https://avatars0.githubusercontent.com/u/30299984?s=460&u=8a93ce3979e3076967015fc8120aea7d4c7f0e4c&v=4",
-      "link": "https://github.com/AlexanderKhazatsky",
-      "name": "Alexander Khazatsky",
-      "office_hours": "TBD",
-      "title": "uGSI"
+      "email": "nagaban2@berkeley.edu",
+      "image": "https://people.eecs.berkeley.edu/~nagaban2/resources/anusha_solo.jpg",
+      "link": "https://people.eecs.berkeley.edu/~nagaban2/",
+      "name": "Anusha Nagabandi",
+      "office_hours": "Mon 11.30-12.30pm, Soda 347 alcove",
+      "title": "GSI"
     }
   ]
 }
