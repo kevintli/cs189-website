@@ -1,5 +1,5 @@
 {
-  "current": 2,
+  "current": 3,
   "all": [
     {
       "number": 1,
@@ -14,7 +14,7 @@
     {
       "number": 3,
       "title": "Intro to RL",
-      "date_range": "Monday, September 9 - Friday, September 13"
+      "date_range": "Monday, September 7 - Friday, September 11"
     },
     {
       "number": 4,
