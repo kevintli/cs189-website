@@ -3,7 +3,7 @@
     "number": "1",
     "title": "Imitation Learning",
     "weeks": [
-       2, 3
+       2, 3,
     ],
     "active": true,
     "solution": false
@@ -12,7 +12,7 @@
     "number": "2",
     "title": "Policy Gradients",
     "weeks": [
-      4,5
+      4, 5, 6
     ],
     "active": true,
     "solution": false
