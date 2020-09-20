@@ -1,5 +1,5 @@
 {
-  "current": 4,
+  "current": 5,
   "all": [
     {
       "number": 1,
@@ -24,7 +24,7 @@
     {
       "number": 5,
       "title": "Value Functions and Q-learning",
-      "date_range": "Monday, September 23 - Friday, September 27"
+      "date_range": "Monday, September 21 - Friday, September 25"
     },
     {
       "number": 6,
