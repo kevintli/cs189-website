@@ -1,5 +1,5 @@
 {
-  "current": 5,
+  "current": 6,
   "all": [
     {
       "number": 1,
@@ -29,7 +29,7 @@
     {
       "number": 6,
       "title": "Advanced Policy Gradients and Model-based learning",
-      "date_range": "Monday, September 30 - Friday, October 4"
+      "date_range": "Monday, September 27 - Friday, October 2"
     },
     {
       "number": 7,
