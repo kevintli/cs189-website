@@ -110,7 +110,7 @@
   },
   {
     "number": 13,
-    "title": "Variational Inference and Generative Models",
+    "title": "Exploration (Part 1)",
     "weeks": [
       8
     ],
@@ -119,9 +119,9 @@
   },
   {
     "number": 14,
-    "title": "Control as Inference",
+    "title": "Exploration (Part 2)",
     "weeks": [
-      8
+      9
     ],
     "draft": false,
     "active": true
