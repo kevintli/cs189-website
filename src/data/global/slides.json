@@ -128,7 +128,7 @@
   },
   {
     "number": 15,
-    "title": "Inverse Reinforcement Learning",
+    "title": "Offline Reinforcement Learning",
     "weeks": [
       9
     ],
@@ -139,7 +139,7 @@
     "number": 16,
     "title": "Transfer and Multi-task Learning",
     "weeks": [
-      9
+      10
     ],
     "draft": false,
     "active": true

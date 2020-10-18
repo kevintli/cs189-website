@@ -121,14 +121,14 @@
     "number": 14,
     "title": "Exploration (Part 2)",
     "weeks": [
-      9
+      8
     ],
     "draft": false,
     "active": true
   },
   {
     "number": 15,
-    "title": "Inverse Reinforcement Learning",
+    "title": "Offline Reinforcement Learning",
     "weeks": [
       9
     ],
