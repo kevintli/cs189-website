@@ -1,5 +1,5 @@
 {
-  "current": 8,
+  "current": 9,
   "all": [
     {
       "number": 1,
@@ -43,8 +43,8 @@
     },
     {
       "number": 9,
-      "title": "Inverse Reinforcement Learning and multi-task learning",
-      "date_range": "Monday, October 21 - Friday, October 25"
+      "title": "Offline Reinforcement Learning and RL Theory",
+      "date_range": "Monday, October 19 - Friday, October 23"
     },
     {
       "number": 10,
