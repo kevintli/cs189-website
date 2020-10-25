@@ -1,5 +1,5 @@
 {
-  "current": 9,
+  "current": 10,
   "all": [
     {
       "number": 1,
@@ -48,8 +48,8 @@
     },
     {
       "number": 10,
-      "title": "More RL Theory",
-      "date_range": "Monday, October 28 - Friday, November 1"
+      "title": "RL Algorithm Design  and Variational Inference",
+      "date_range": "Monday, October 26 - Friday, October 30"
     },
     {
       "number": 11,

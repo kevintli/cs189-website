@@ -137,16 +137,16 @@
   },
   {
     "number": 16,
-    "title": "Transfer and Multi-task Learning",
+    "title": "Introduction to RL Theory",
     "weeks": [
-      10
+      9
     ],
     "draft": false,
     "active": true
   },
   {
     "number": 17,
-    "title": "Distributed RL",
+    "title": "RL Theory in Practice",
     "weeks": [
       10
     ],
@@ -155,7 +155,7 @@
   },
   {
     "number": 18,
-    "title": "Exploration (Part 1)",
+    "title": "Probability and Variational Inference Primer",
     "weeks": [
       11
     ],
@@ -164,7 +164,7 @@
   },
   {
     "number": 19,
-    "title": "Exploration (Part 2)",
+    "title": "Connection between Inference and Control",
     "weeks": [
       11
     ],
@@ -173,7 +173,7 @@
   },
   {
     "number": 20,
-    "title": "Meta-learning",
+    "title": "Inverse Reinforcement Learning",
     "weeks": [
       12
     ],
@@ -182,7 +182,25 @@
   },
   {
     "number": 21,
-    "title": "Information Theory, Open Problems",
+    "title": "Transfer Learning and Multi-Task Learning",
+    "weeks": [
+      13
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 22,
+    "title": "Meta-Learning",
+    "weeks": [
+      13
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 23,
+    "title": "Parallelism, RL System Design and Applications",
     "weeks": [
       13
     ],
