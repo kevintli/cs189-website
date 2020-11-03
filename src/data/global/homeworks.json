@@ -30,7 +30,7 @@
     "number": "4",
     "title": "Model-based RL",
     "weeks": [
-      9,10
+	9,10,11
     ],
     "active": true,
     "solution": false
@@ -39,7 +39,7 @@
     "number": "5",
     "title": "Exploration in RL",
     "weeks": [
-      11,12
+      12
     ],
     "active": true,
     "solution": false

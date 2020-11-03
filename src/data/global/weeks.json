@@ -1,5 +1,5 @@
 {
-  "current": 10,
+  "current": 11,
   "all": [
     {
       "number": 1,
@@ -53,8 +53,8 @@
     },
     {
       "number": 11,
-      "title": "Exploration",
-      "date_range": "Monday, November 4 - Friday, November 8"
+      "title": "Control as Inference and Inverse Reinforcement Learning",
+      "date_range": "Monday, November 2 - Friday, November 6"
     },
     {
       "number": 12,
