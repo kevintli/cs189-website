@@ -37,9 +37,9 @@
   },
   {
     "number": "5",
-    "title": "Exploration in RL",
+    "title": "Exploration and Offline RL",
     "weeks": [
-      12
+	12, 13
     ],
     "active": true,
     "solution": false

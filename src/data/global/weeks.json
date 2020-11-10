@@ -1,5 +1,5 @@
 {
-  "current": 11,
+  "current": 12,
   "all": [
     {
       "number": 1,
@@ -58,8 +58,8 @@
     },
     {
       "number": 12,
-      "title": "Meta-learning",
-      "date_range": "Monday, November 11 - Friday, November 15"
+      "title": "Transfer Learning and Multi-Task Learning",
+      "date_range": "Monday, November 09 - Friday, November 13"
     },
     {
       "number": 13,
