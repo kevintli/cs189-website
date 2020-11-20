@@ -39,7 +39,7 @@
     "number": "5",
     "title": "Exploration and Offline RL",
     "weeks": [
-	12, 13
+	12, 13, 14
     ],
     "active": true,
     "solution": false

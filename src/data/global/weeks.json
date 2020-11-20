@@ -1,5 +1,5 @@
 {
-  "current": 12,
+  "current": 13,
   "all": [
     {
       "number": 1,
@@ -63,8 +63,8 @@
     },
     {
       "number": 13,
-      "title": "Information Theory, Challenges, Open Problems",
-      "date_range": "Monday, November 18 - Friday, November 22"
+      "title": "Meta-Learning, Challenges, Open Problems",
+      "date_range": "Monday, November 15 - Friday, November 20"
     }
   ]
 }
