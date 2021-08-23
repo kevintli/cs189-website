@@ -1,2 +1,11 @@
 [
+  {
+    "number": 1,
+    "title": "Introduction and Course Overview",
+    "weeks": [
+      1
+    ],
+    "draft": false,
+    "active": true
+  }
 ]
