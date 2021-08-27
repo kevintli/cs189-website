@@ -7,5 +7,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 2,
+    "title": "Supervised Learning of Behaviors",
+    "weeks": [
+      2
+    ],
+    "draft": false,
+    "active": true
   }
 ]
