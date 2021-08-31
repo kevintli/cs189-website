@@ -1,2 +1,11 @@
 [
+  {
+    "number": "1",
+    "title": "Imitation Learning",
+    "weeks": [
+       2, 3
+    ],
+    "active": true,
+    "solution": false
+  }
 ]
