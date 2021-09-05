@@ -16,5 +16,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 4,
+    "title": "Introduction to Reinforcement Learning",
+    "weeks": [
+      3
+    ],
+    "draft": false,
+    "active": true
   }
 ]
