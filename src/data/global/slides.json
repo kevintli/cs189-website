@@ -25,5 +25,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 5,
+    "title": "Policy Gradients",
+    "weeks": [
+      4
+    ],
+    "draft": false,
+    "active": true
   }
 ]
