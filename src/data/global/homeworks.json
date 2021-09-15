@@ -7,5 +7,14 @@
     ],
     "active": true,
     "solution": false
+  },
+  {
+    "number": "2",
+    "title": "Policy Gradients",
+    "weeks": [
+       4, 5
+    ],
+    "active": true,
+    "solution": false
   }
 ]
