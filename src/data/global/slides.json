@@ -61,5 +61,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 9,
+    "title": "Advanced Policy Gradients",
+    "weeks": [
+      6
+    ],
+    "draft": false,
+    "active": true
   }
 ]
