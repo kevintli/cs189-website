@@ -70,5 +70,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 10,
+    "title": "Optimal Control and Planning",
+    "weeks": [
+      6
+    ],
+    "draft": false,
+    "active": true
   }
 ]
