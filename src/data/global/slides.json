@@ -79,5 +79,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 11,
+    "title": "Model-Based Reinforcement Learning",
+    "weeks": [
+      7
+    ],
+    "draft": false,
+    "active": true
   }
 ]
