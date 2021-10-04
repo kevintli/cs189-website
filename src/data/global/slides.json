@@ -88,5 +88,14 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 12,
+    "title": "Model-Based Policy Learning",
+    "weeks": [
+      7
+    ],
+    "draft": false,
+    "active": true
   }
 ]
