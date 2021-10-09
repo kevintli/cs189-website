@@ -97,5 +97,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 13,
+    "title": "Exploration (Part 1)",
+    "weeks": [
+      8
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 14,
+    "title": "Exploration (Part 2)",
+    "weeks": [
+      8
+    ],
+    "draft": false,
+    "active": true
   }
 ]
