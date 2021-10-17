@@ -21,7 +21,7 @@
     "number": "3",
     "title": "Q-learning and Actor-Critic Algorithms",
     "weeks": [
-       6, 7, 8
+       6, 7, 8, 9
     ],
     "active": true,
     "solution": false

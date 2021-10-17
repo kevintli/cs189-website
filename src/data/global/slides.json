@@ -115,5 +115,22 @@
     ],
     "draft": false,
     "active": true
+  },  {
+    "number": 15,
+    "title": "Offline Reinforcement Learning (Part 1)",
+    "weeks": [
+      9
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 16,
+    "title": "Offline Reinforcement Learning (Part 2)",
+    "weeks": [
+      9
+    ],
+    "draft": false,
+    "active": true
   }
 ]

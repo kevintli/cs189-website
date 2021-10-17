@@ -1,5 +1,5 @@
 {
-  "current": 8,
+  "current": 9,
   "all": [
     {
       "number": 1,
@@ -43,7 +43,7 @@
     },
     {
       "number": 9,
-      "title": "Offline Reinforcement Learning and RL Theory",
+      "title": "Offline Reinforcement Learning",
       "date_range": "Monday, October 18 - Friday, October 22"
     },
     {
