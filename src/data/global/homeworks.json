@@ -25,5 +25,14 @@
     ],
     "active": true,
     "solution": false
+  },
+  {
+    "number": "4",
+    "title": "Model-Based Reinforcement Learning",
+    "weeks": [
+       9, 10, 11
+    ],
+    "active": true,
+    "solution": false
   }
 ]
