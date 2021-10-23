@@ -115,7 +115,8 @@
     ],
     "draft": false,
     "active": true
-  },  {
+  },
+  {
     "number": 15,
     "title": "Offline Reinforcement Learning (Part 1)",
     "weeks": [
@@ -129,6 +130,24 @@
     "title": "Offline Reinforcement Learning (Part 2)",
     "weeks": [
       9
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 17,
+    "title": "Reinforcement Learning Theory Basics",
+    "weeks": [
+      10
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 18,
+    "title": "Variational Inference and Generative Models",
+    "weeks": [
+      10
     ],
     "draft": false,
     "active": true
