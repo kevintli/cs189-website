@@ -151,5 +151,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 19,
+    "title": "Connection between Inference and Control",
+    "weeks": [
+      11
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 20,
+    "title": "Inverse Reinforcement Learning",
+    "weeks": [
+      11
+    ],
+    "draft": false,
+    "active": true
   }
 ]
