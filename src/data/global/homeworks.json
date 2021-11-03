@@ -34,5 +34,14 @@
     ],
     "active": true,
     "solution": false
+  },
+  {
+    "number": "5",
+    "title": "Exploration and Offline Reinforcement Learning",
+    "weeks": [
+       11, 12, 13
+    ],
+    "active": true,
+    "solution": false
   }
 ]
