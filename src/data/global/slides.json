@@ -169,5 +169,23 @@
     ],
     "draft": false,
     "active": true
+  },
+  {
+    "number": 21,
+    "title": "Transfer and Multi-Task Learning",
+    "weeks": [
+      12
+    ],
+    "draft": false,
+    "active": true
+  },
+  {
+    "number": 22,
+    "title": "Meta-Learning",
+    "weeks": [
+      12
+    ],
+    "draft": false,
+    "active": true
   }
 ]
