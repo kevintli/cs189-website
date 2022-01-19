@@ -1,53 +1,112 @@
 {
   "faculty": [
     {
-      "email": "svlevine@eecs.berkeley.edu",
-      "image": "https://people.eecs.berkeley.edu/~svlevine/images/portrait_lab_small.png",
-      "link": "https://people.eecs.berkeley.edu/~svlevine/",
-      "name": "Sergey Levine",
-      "office_hours": "After lecture",
+      "email": "jrs@",
+      "image": "/cs189-website/static/images/staff_pics/shewchuk.png",
+      "link": "https://people.eecs.berkeley.edu/~jrs/",
+      "name": "Jonathan Shewchuk",
+      "office_hours": "TBD",
       "title": "Instructor"
     }
   ],
   "tas": [
     {
-      "email": "shah@eecs.berkeley.edu",
-      "image": "https://people.eecs.berkeley.edu/~shah/assets/DhruvShah.jpg",
-      "link": "https://people.eecs.berkeley.edu/~shah/",
-      "name": "Dhruv Shah",
-      "office_hours": "Thursday 4-5pm",
+      "email": "kevintli@",
+      "image": "/cs189-website/static/images/staff_pics/kevin.png",
+      "link": "https://kevintli.com",
+      "name": "Kevin Li",
+      "office_hours": "TBD",
       "title": "Head GSI"
     },
     {
-      "email": "xinyun.chen@berkeley.edu",
-      "image": "https://jungyhuk.github.io/imgs/Xinyun.jpg",
-      "link": "https://jungyhuk.github.io/",
-      "name": "Xinyun Chen",
-      "office_hours": "Tuesday 4-5pm",
+      "email": "agnibhoroy@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Agnibho Roy",
+      "office_hours": "TBD",
+      "title": "uGSI"
+    },
+    {
+      "email": "ajabri@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Allan Jabri",
+      "office_hours": "TBD",
       "title": "GSI"
     },
     {
-      "email": "kevintli@berkeley.edu",
-      "image": "https://media-exp1.licdn.com/dms/image/C5603AQFa0U_MfFDZ_g/profile-displayphoto-shrink_200_200/0/1627629878870?e=1633564800&v=beta&t=H4RJnfJUOpdECy9LLrD7GXVYrefRD0Aw8KO4GH9QjSY",
-      "link": "https://www.linkedin.com/in/kevintli",
-      "name": "Kevin Li",
-      "office_hours": "Wednesday 11am-12pm",
+      "email": "ashwin_balakrishna@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Ashwin Balakrishna",
+      "office_hours": "TBD",
       "title": "GSI"
     },
     {
-      "email": "jenseng@berkeley.edu",
-      "image": "/deeprlcourse/static/images/jensen_gao.jpg",
-      "link": "https://www.linkedin.com/in/jensen-gao-038024162",
-      "name": "Jensen Gao",
-      "office_hours": "Monday 11am-12pm",
+      "email": "gauravrghosal@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Gaurav Ghosal",
+      "office_hours": "TBD",
+      "title": "uGSI"
+    },
+    {
+      "email": "kagrawal@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Kumar Krishna Agrawal",
+      "office_hours": "TBD",
       "title": "GSI"
     },
     {
-      "email": "asap7772@berkeley.edu",
-      "image": "https://asap7772.github.io/img/profile.jpg",
-      "link": "https://asap7772.github.io/",
-      "name": "Anikait Singh",
-      "office_hours": "Friday 4-5pm",
+      "email": "philip_jacobson@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Philip Jacobson",
+      "office_hours": "TBD",
+      "title": "GSI"
+    },
+    {
+      "email": "rahulkumar@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Rahul Kumar",
+      "office_hours": "TBD",
+      "title": "uGSI"
+    },
+    {
+      "email": "ziyema@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Ziye Ma",
+      "office_hours": "TBD",
+      "title": "GSI"
+    },
+    {
+      "email": "anikar@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Anika Ramachandran",
+      "office_hours": "TBD",
+      "title": "uGSI"
+    },
+    {
+      "email": "bhoberman@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Ben Hoberman",
+      "office_hours": "TBD",
+      "title": "uGSI"
+    },
+    {
+      "email": "fliu@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Frank Liu",
+      "office_hours": "TBD",
+      "title": "uGSI"
+    },
+    {
+      "email": "volkovskyi@",
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "name": "Oleksii Volkovskyi",
+      "office_hours": "TBD",
+      "title": "uGSI"
+    },
+    {
+      "image": "/cs189-website/static/images/staff_pics/blank.png",
+      "email": "hansenpmeche@",
+      "name": "Philippe Hansen-Estruch",
+      "office_hours": "TBD",
       "title": "uGSI"
     }
   ]

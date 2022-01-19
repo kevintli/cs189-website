@@ -1,70 +1,85 @@
 {
-  "current": 13,
-  "all": [
-    {
-      "number": 1,
-      "title": "Course Introduction, Imitation Learning",
-      "date_range": "Wednesday, August 25 - Friday, August 27"
-    },
-    {
-      "number": 2,
-      "title": "Imitation Learning",
-      "date_range": "Monday, August 30 - Friday, September 3"
-    },
-    {
-      "number": 3,
-      "title": "Intro to RL",
-      "date_range": "Monday, September 6 - Friday, September 10"
-    },
-    {
-      "number": 4,
-      "title": "Policy Gradients and Actor Critic",
-      "date_range": "Monday, September 13 - Friday, September 17"
-    },
-    {
-      "number": 5,
-      "title": "Value Functions and Q-learning",
-      "date_range": "Monday, September 20 - Friday, September 24"
-    },
-    {
-      "number": 6,
-      "title": "Advanced Policy Gradients and Model-based learning",
-      "date_range": "Monday, September 27 - Friday, October 1"
-    },
-    {
-      "number": 7,
-      "title": "Advanced Model Learning and Imitating Optimal Controllers",
-      "date_range": "Monday, October 4 - Friday, October 8"
-    },
-    {
-      "number": 8,
-      "title": "Exploration",
-      "date_range": "Monday, October 11 - Friday, October 15"
-    },
-    {
-      "number": 9,
-      "title": "Offline Reinforcement Learning",
-      "date_range": "Monday, October 18 - Friday, October 22"
-    },
-    {
-      "number": 10,
-      "title": "RL Algorithm Design  and Variational Inference",
-      "date_range": "Monday, October 25 - Friday, October 29"
-    },
-    {
-      "number": 11,
-      "title": "Control as Inference and Inverse Reinforcement Learning",
-      "date_range": "Monday, November 1 - Friday, November 5"
-    },
-    {
-      "number": 12,
-      "title": "Transfer Learning, Multi-Task Learning, and Meta-Learning",
-      "date_range": "Monday, November 8 - Friday, November 12"
-    },
-    {
-      "number": 13,
-      "title": "Challenges and Open Problems",
-      "date_range": "Monday, November 15 - Friday, November 19"
-    }
-  ]
+    "current": 0,
+    "max": 14,
+    "all": [{
+            "number": 0,
+            "title": "Introduction: Classification, Training, Validation and Testing",
+            "date_range": "Tuesday, January 18 - Friday, January 21"
+        },
+        {
+            "number": 1,
+            "title": "Linear Classifiers, Hard-Margin SVM",
+            "date_range": "Monday, January 24 - Friday, January 28"
+        },
+        {
+            "number": 2,
+            "title": "Soft-Margin SVM, Machine Learning Abstractions",
+            "date_range": "Monday, January 31 - Friday, February 4"
+        },
+        {
+            "number": 3,
+            "title": "Decision Theory, Gaussian Discriminant Analysis, MLE",
+            "date_range": "Monday, February 7 - Friday, February 11"
+        },
+        {
+            "number": 4,
+            "title": "Eigendecomposition, Anisotropic Gaussians",
+            "date_range": "Monday, February 14 - Friday, February 18"
+        },
+        {
+            "number": 5,
+            "title": "Least-Squares and Logistic Regression",
+            "date_range": "Monday, February 21 - Friday, February 25"
+        },
+        {
+            "number": 6,
+            "title": "Newton's Method, Statistical Justifications for Regression",
+            "date_range": "Monday, February 28 - Friday, March 4"
+        },
+        {
+            "number": 7,
+            "title": "Ridge Regression and Lasso, Decision Tree Basics",
+            "date_range": "Monday, March 7 - Friday, March 11"
+        },
+        {
+            "number": 8,
+            "title": "Midterm, More Decision Trees",
+            "date_range": "Monday, March 14 - Friday, March 18"
+        },
+        {
+            "number": 9,
+            "title": "Spring Break",
+            "date_range": "Monday, March 21 - Friday, March 25"
+        },
+        {
+            "number": 10,
+            "title": "Kernels, Neural Networks and Backpropagation",
+            "date_range": "Monday, March 28 - Friday, April 1"
+        },
+        {
+            "number": 11,
+            "title": "Neuron Biology, Heuristics for Neural Net Training, CNNs",
+            "date_range": "Monday, April 4 - Friday, April 8"
+        },
+        {
+            "number": 12,
+            "title": "Unsupervised Learning: PCA and SVD, Clustering",
+            "date_range": "Monday, April 11 - Friday, April 15"
+        },
+        {
+            "number": 13,
+            "title": "Spectral Graph Theory, High-Dimensional Spaces",
+            "date_range": "Monday, April 18 - Friday, April 22"
+        },
+        {
+            "number": 14,
+            "title": "AdaBoost, Nearest Neighbors and k-NN",
+            "date_range": "Monday, April 25 - Friday, April 29"
+        },
+        {
+            "number": 15,
+            "title": "RRR Week (no new content)",
+            "date_range": "Monday, May 2 - Friday, May 6"
+        }
+    ]
 }

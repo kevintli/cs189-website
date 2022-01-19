@@ -5,9 +5,9 @@ all:
 
 preview:
 	python compile.py preview && \
-  mv published deeprlcourse && \
+  mv published cs189-website && \
   mkdir published && \
-  mv deeprlcourse published/ && \
+  mv cs189-website published/ && \
 	cd published && \
 	python -m http.server
 

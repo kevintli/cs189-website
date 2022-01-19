@@ -1,200 +1,227 @@
-[
-  {
-    "number": 1,
-    "title": "Introduction and Course Overview",
-    "weeks": [
-      1
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 2,
-    "title": "Supervised Learning of Behaviors",
-    "weeks": [
-      2
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 4,
-    "title": "Introduction to Reinforcement Learning",
-    "weeks": [
-      3
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 5,
-    "title": "Policy Gradients",
-    "weeks": [
-      4
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 6,
-    "title": "Actor-Critic Algorithms",
-    "weeks": [
-      4
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 7,
-    "title": "Value Function Methods",
-    "weeks": [
-      5
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 8,
-    "title": "Deep RL with Q-Functions",
-    "weeks": [
-      5
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 9,
-    "title": "Advanced Policy Gradients",
-    "weeks": [
-      6
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 10,
-    "title": "Optimal Control and Planning",
-    "weeks": [
-      6
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 11,
-    "title": "Model-Based Reinforcement Learning",
-    "weeks": [
-      7
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 12,
-    "title": "Model-Based Policy Learning",
-    "weeks": [
-      7
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 13,
-    "title": "Exploration (Part 1)",
-    "weeks": [
-      8
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 14,
-    "title": "Exploration (Part 2)",
-    "weeks": [
-      8
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 15,
-    "title": "Offline Reinforcement Learning (Part 1)",
-    "weeks": [
-      9
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 16,
-    "title": "Offline Reinforcement Learning (Part 2)",
-    "weeks": [
-      9
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 17,
-    "title": "Reinforcement Learning Theory Basics",
-    "weeks": [
-      10
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 18,
-    "title": "Variational Inference and Generative Models",
-    "weeks": [
-      10
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 19,
-    "title": "Connection between Inference and Control",
-    "weeks": [
-      11
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 20,
-    "title": "Inverse Reinforcement Learning",
-    "weeks": [
-      11
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 21,
-    "title": "Transfer and Multi-Task Learning",
-    "weeks": [
-      12
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 22,
-    "title": "Meta-Learning",
-    "weeks": [
-      12
-    ],
-    "draft": false,
-    "active": true
-  },
-  {
-    "number": 23,
-    "title": "Challenges and Open Problems",
-    "weeks": [
-      13
-    ],
-    "draft": false,
-    "active": true
-  }
+[{
+        "number": 1,
+        "title": "Introduction, Classification, Validation and Testing",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/01.pdf",
+        "weeks": [
+            0
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 2,
+        "title": "Linear Classifiers",
+        "weeks": [
+            1
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 3,
+        "title": "Gradient Descent, Perceptrons, Hard-Margin SVM",
+        "weeks": [
+            1
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 4,
+        "title": "Soft-margin SVM, nonlinear features",
+        "weeks": [
+            2
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 5,
+        "title": "Machine learning abstractions, optimization problems",
+        "weeks": [
+            2
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 6,
+        "title": "Decision theory, Generative/discriminative models",
+        "weeks": [
+            3
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 7,
+        "title": "QDA, LDA, MLE of parameters",
+        "weeks": [
+            3
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 8,
+        "title": "Eigendecomposition, Spectral Theorem, anisotropic Gaussians",
+        "weeks": [
+            4
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 9,
+        "title": "More anisotropic Gaussians",
+        "weeks": [
+            4
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 10,
+        "title": "Regression overview, least-squares and logistic regression",
+        "weeks": [
+            5
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 11,
+        "title": "Newton's method and logistic regression; more least squares",
+        "weeks": [
+            6
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 12,
+        "title": "Statistical justifications for regression",
+        "weeks": [
+            6
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 13,
+        "title": "Ridge regression, Lasso, Subset selection",
+        "weeks": [
+            7
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 14,
+        "title": "Decision trees, entropy & info gain",
+        "weeks": [
+            7
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 15,
+        "title": "More decision trees, ensembles, random forests",
+        "weeks": [
+            8
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 16,
+        "title": "Kernels",
+        "weeks": [
+            9
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 17,
+        "title": "Neural networks, gradient descent, backprop",
+        "weeks": [
+            9
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 18,
+        "title": "Neuron biology, tricks and heuristics for NN training",
+        "weeks": [
+            10
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 19,
+        "title": "Heuristics for NN training, CNNs",
+        "weeks": [
+            10
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 20,
+        "title": "Unsupervised learning: PCA",
+        "weeks": [
+            11
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 21,
+        "title": "SVD, k-means and other clustering techniques",
+        "weeks": [
+            11
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 22,
+        "title": "Spectral graph clustering",
+        "weeks": [
+            12
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 23,
+        "title": "More spectral graph clustering, random projection, high-dim spaces",
+        "weeks": [
+            12
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 24,
+        "title": "AdaBoost, nearest neighbors",
+        "weeks": [
+            13
+        ],
+        "draft": false,
+        "active": true
+    },
+    {
+        "number": 25,
+        "title": "k-NN algorirthm, k-d trees, Conclusion",
+        "weeks": [
+            13
+        ],
+        "draft": false,
+        "active": true
+    }
 ]

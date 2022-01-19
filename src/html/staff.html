@@ -4,15 +4,19 @@
 redirect_from: /staff
 -->
 {% endblock %}
-{% block title %}CS 285 Staff{% endblock %}
+{% block title %}CS 189 Staff{% endblock %}
 
 {% block body %}
 <main class="staff-page">
     <section class="page-head wrap-container standard-text">
         <div class="wrap">
             <div class="head-decor">
-                <p class="head-subtitle">CS 285 at UC Berkeley</p>
+                <p class="head-subtitle">CS 189/289A at UC Berkeley</p>
                 <h1 class="head-title">Staff</h1>
+                <p><b>In general, we prefer that you ask questions on Piazza instead of emailing individual instructors/TAs</b>, and you're likely to receive a faster response that way.
+                If you have a sensitive logistical question, you can make a private Piazza post visible only to certain people on course staff.</p>
+                <br>
+                <p>(Append berkeley.edu to all email addresses below)</p>
             </div>
             <div class="head-people">
                 <h2 class="standard-title">Faculty</h2>
@@ -26,7 +30,7 @@ redirect_from: /staff
                     </div>
                     <div class="person-text">
                         <h2 class="person-name">{{ person.title }}
-                            <a href="{{ person.link }}">{{ person.name }}</a>
+                            <a href="{{ person.link }}" target="_blank">{{ person.name }}</a>
                         </h2>
                         <p><span>{{ person.email }}</span></p>
                         <p>Office Hours: {{ person.office_hours }}</p>
@@ -38,14 +42,14 @@ redirect_from: /staff
                 {% set i = 0 %}
                 {% for person in people.tas %}
                     {% if i % 2 == 0 %}
-                </div>
-                <div class="row">
+                <!-- </div>
+                <div class="row"> -->
                     {% endif %}
                     <div class="person col-md-6">
                         <div class="person-thumbnail">
                             <div class="person-avatar">
                                 <span class="person-image"
-                                      style="background: url('{{person.image}}'); background-size:cover;"></span>
+                                    style="background: url('{{person.image}}'); background-size:cover;"></span>
                             </div>
                         </div>
                         <div class="person-text">

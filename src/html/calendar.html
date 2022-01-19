@@ -1,20 +1,25 @@
-{% extends "layouts/base.html" %}
-{% block top %}
+{% extends "layouts/base.html" %} {% block top %}
 <!--
 redirect_from: /calendar
 -->
-{% endblock %}
-{% block title %}CS 285 Calendar{% endblock %}
-
-{% block body %}
+{% endblock %} {% block title %}CS 189 Calendar{% endblock %} {% block body %}
 <main class="index-page">
     <section class="page-head wrap-container">
         <div class="wrap">
             <div class="head-decor">
-                <p class="head-subtitle">CS 285 at UC Berkeley</p>
-                <h1 class="head-title">Calendar</h1>
-                <iframe src="https://calendar.google.com/calendar/embed?src=berkeley.edu_m6mh3ru67racvj7d1nns39e128%40group.calendar.google.com&ctz=America%2FLos_Angeles" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <p class="head-subtitle">CS 189 at UC Berkeley</p>
+                <h1 class="head-title">Calendars</h1>
+                <p>Office hours and Discussion sections will begin on the <b>second week of classes</b>.</p>
             </div>
+        </div>
+    </section>
+    <section class="standard-text wrap-container">
+        <div class="wrap">
+            <h2 class="standard-title" id="oh-calendar">Office Hours</h2>
+            <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FLos_Angeles&showTitle=1&showPrint=1&mode=WEEK&src=Y19oZm5lZ2Uza3ZiNWE1aGpqdDB0bmE1b3Y2MEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%237986CB" style="border-width:0"
+                width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            <br><br>
+            <h2 class="standard-title" id="disc-calendar">Discussion Sections</h2>
         </div>
     </section>
 </main>
