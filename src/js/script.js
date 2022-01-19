@@ -89,19 +89,19 @@ $(document).ready(function() {
 
     function collapse(resource) {
         if (!(resource in heights)) {
-            heights[resource] = $('ul.lists[resource="'+resource+'"]').height();
+            heights[resource] = $('ul.lists[resource="' + resource + '"]').height();
         }
-        console.log('ul.lists[resource="'+resource+'"]');
-        $('ul.lists[resource="'+resource+'"]').animate({
+        console.log('ul.lists[resource="' + resource + '"]');
+        $('ul.lists[resource="' + resource + '"]').animate({
             height: 0
         });
-        $('.trigger[resource="'+resource+'"]').html("Expand");
+        $('.trigger[resource="' + resource + '"]').html("Expand");
         state.set(resource, false);
     }
 
     function expand(resource) {
-        $('ul.lists[resource="'+resource+'"]').height(heights[resource]);
-        $('.trigger[resource="'+resource+'"]').html("Collapse");
+        $('ul.lists[resource="' + resource + '"]').height(heights[resource]);
+        $('.trigger[resource="' + resource + '"]').html("Collapse");
         state.set(resource, true);
     }
 
@@ -117,7 +117,7 @@ $(document).ready(function() {
     }
 
     function isExpanded(resource) {
-        return $('ul.lists[resource="'+resource+'"]').height() != 0;
+        return $('ul.lists[resource="' + resource + '"]').height() != 0;
     }
 
     $('.trigger').on('click', function() {
@@ -145,31 +145,31 @@ $(document).ready(function() {
     state = new State().load();
     restoreCollapseStates();
 
-    var api_key = 'AIzaSyBqJVOZunTJy7veXWbxHBv7akExIFRcozg';
-    var calendarID = 'berkeley.edu_q2lae20h8ncme3pb5a00p7is98@group.calendar.google.com';
-    // Load calendar events
-    formatGoogleCalendar.init({
-        calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/' + calendarID +
-                        '/events?key=' + api_key,
-        past: false,
-        upcoming: true,
-        sameDayTimes: true,
-        dayNames: true,
-        pastTopN: -1,
-        upcomingTopN: 5,
-        recurringEvents: true,
-        itemsTagName: 'li',
-        upcomingSelector: '#events-upcoming',
-        pastSelector: '',
-        upcomingHeading: '',
-        pastHeading: '',
-        format: ['*date*', ': ', '*summary*', ' — ', '*description*', ' in ', '*location*'],
-        after: function() {
-          $('.live-bar').marquee({
-            direction: 'left',
-            pauseOnHover: true,
-            duration: 15000
-          });
-        }
-    });
+    // var api_key = 'AIzaSyBqJVOZunTJy7veXWbxHBv7akExIFRcozg';
+    // var calendarID = 'berkeley.edu_q2lae20h8ncme3pb5a00p7is98@group.calendar.google.com';
+    // // Load calendar events
+    // formatGoogleCalendar.init({
+    //     calendarUrl: 'https://www.googleapis.com/calendar/v3/calendars/' + calendarID +
+    //                     '/events?key=' + api_key,
+    //     past: false,
+    //     upcoming: true,
+    //     sameDayTimes: true,
+    //     dayNames: true,
+    //     pastTopN: -1,
+    //     upcomingTopN: 5,
+    //     recurringEvents: true,
+    //     itemsTagName: 'li',
+    //     upcomingSelector: '#events-upcoming',
+    //     pastSelector: '',
+    //     upcomingHeading: '',
+    //     pastHeading: '',
+    //     format: ['*date*', ': ', '*summary*', ' — ', '*description*', ' in ', '*location*'],
+    //     after: function() {
+    //       $('.live-bar').marquee({
+    //         direction: 'left',
+    //         pauseOnHover: true,
+    //         duration: 15000
+    //       });
+    //     }
+    // });
 });
