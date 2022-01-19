@@ -23,5 +23,5 @@ staging:
 
 # Pushes the published folder to gh-pages to update the staging webpage.
 update:
-	git push origin `git subtree split --prefix published master`:gh-pages --force
-	git subtree split --rejoin --prefix=published master
+	git push origin `git subtree split --prefix published main`:gh-pages --force
+	git subtree split --rejoin --prefix=published main
