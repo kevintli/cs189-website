@@ -50,9 +50,9 @@ for directory in (args.static,):
 # Update CNAME if needed and copy
 with open('CNAME', 'w') as cname:
     if args.mode == 'production':
-        cname.write('') # TODO
+        cname.write('www.compsci189.org') # TODO
     elif args.mode == 'staging':
-        cname.write('') # TODO
+        cname.write('www.compsci189.org') # TODO
 shutil.copy2('CNAME', os.path.join(args.out, 'CNAME'))
 
 # Minify js
