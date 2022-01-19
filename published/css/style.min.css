@@ -197,12 +197,12 @@ div.person {
   div.person .person-info, div.person .person-text, div.person .person-thumbnail {
     float: left; }
   div.person .person-thumbnail {
-    width: 8em; }
+    width: 9em; }
     div.person .person-thumbnail .person-avatar {
       overflow: hidden;
       border-radius: 50%;
-      height: 6em;
-      width: 6em;
+      height: 7em;
+      width: 7em;
       margin: 1em 2em 1em 0; }
     div.person .person-thumbnail .person-image {
       height: 100%;

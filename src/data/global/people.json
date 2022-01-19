@@ -1,113 +1,124 @@
 {
-  "faculty": [
-    {
-      "email": "jrs@",
-      "image": "/cs189-website/static/images/staff_pics/shewchuk.png",
-      "link": "https://people.eecs.berkeley.edu/~jrs/",
-      "name": "Jonathan Shewchuk",
-      "office_hours": "TBD",
-      "title": "Instructor"
-    }
-  ],
-  "tas": [
-    {
-      "email": "kevintli@",
-      "image": "/cs189-website/static/images/staff_pics/kevin.png",
-      "link": "https://kevintli.com",
-      "name": "Kevin Li",
-      "office_hours": "TBD",
-      "title": "Head GSI"
-    },
-    {
-      "email": "agnibhoroy@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Agnibho Roy",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    },
-    {
-      "email": "ajabri@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Allan Jabri",
-      "office_hours": "TBD",
-      "title": "GSI"
-    },
-    {
-      "email": "ashwin_balakrishna@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Ashwin Balakrishna",
-      "office_hours": "TBD",
-      "title": "GSI"
-    },
-    {
-      "email": "gauravrghosal@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Gaurav Ghosal",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    },
-    {
-      "email": "kagrawal@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Kumar Krishna Agrawal",
-      "office_hours": "TBD",
-      "title": "GSI"
-    },
-    {
-      "email": "philip_jacobson@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Philip Jacobson",
-      "office_hours": "TBD",
-      "title": "GSI"
-    },
-    {
-      "email": "rahulkumar@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Rahul Kumar",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    },
-    {
-      "email": "ziyema@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Ziye Ma",
-      "office_hours": "TBD",
-      "title": "GSI"
-    },
-    {
-      "email": "anikar@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Anika Ramachandran",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    },
-    {
-      "email": "bhoberman@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Ben Hoberman",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    },
-    {
-      "email": "fliu@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Frank Liu",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    },
-    {
-      "email": "volkovskyi@",
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "name": "Oleksii Volkovskyi",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    },
-    {
-      "image": "/cs189-website/static/images/staff_pics/blank.png",
-      "email": "hansenpmeche@",
-      "name": "Philippe Hansen-Estruch",
-      "office_hours": "TBD",
-      "title": "uGSI"
-    }
-  ]
+    "faculty": [{
+        "email": "jrs@",
+        "image": "/cs189-website/static/images/staff_pics/shewchuk.png",
+        "link": "https://people.eecs.berkeley.edu/~jrs/",
+        "name": "Jonathan Shewchuk",
+        "office_hours": "TBD",
+        "title": "Instructor"
+    }],
+    "tas": [{
+            "email": "kevintli@",
+            "image": "/cs189-website/static/images/staff_pics/kevin.png",
+            "link": "https://kevintli.com",
+            "name": "Kevin Li",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "Head GSI"
+        },
+        {
+            "email": "agnibhoroy@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Agnibho Roy",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        },
+        {
+            "email": "ajabri@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Allan Jabri",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "GSI"
+        },
+        {
+            "email": "ashwin_balakrishna@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Ashwin Balakrishna",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "GSI"
+        },
+        {
+            "email": "gauravrghosal@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Gaurav Ghosal",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        },
+        {
+            "email": "kagrawal@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Kumar Krishna Agrawal",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "GSI"
+        },
+        {
+            "email": "philip_jacobson@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Philip Jacobson",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "GSI"
+        },
+        {
+            "email": "rahulkumar@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Rahul Kumar",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        },
+        {
+            "email": "ziyema@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Ziye Ma",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "GSI"
+        },
+        {
+            "email": "anikar@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Anika Ramachandran",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        },
+        {
+            "email": "bhoberman@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Ben Hoberman",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        },
+        {
+            "email": "fliu@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Frank Liu",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        },
+        {
+            "email": "volkovskyi@",
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "name": "Oleksii Volkovskyi",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        },
+        {
+            "image": "/cs189-website/static/images/staff_pics/blank.png",
+            "email": "hansenpmeche@",
+            "name": "Philippe Hansen-Estruch",
+            "discussions": "TBD",
+            "office_hours": "TBD",
+            "title": "uGSI"
+        }
+    ]
 }
