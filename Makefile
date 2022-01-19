@@ -5,9 +5,6 @@ all:
 
 preview:
 	python compile.py preview && \
-  mv published cs189-website && \
-  mkdir published && \
-  mv cs189-website published/ && \
 	cd published && \
 	python -m http.server
 
