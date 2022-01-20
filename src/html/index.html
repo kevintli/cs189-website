@@ -52,17 +52,18 @@ Course Website Design
             <p class="highlighted-byline">{{ week.date_range }}</p>
             <span class="dividing-bar"></span>
             <ul class="lists two-col animate-3">
-                {% for hw in homeworks %} {% if week.number in hw.weeks %} {% if hw.active == true %}
-                <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> {% if hw.due_date %}(<b>due {{hw.due_date}}</b>) {% else %}{% endif %}[<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>{% if hw.solution and hw.solution_url %}, <a href="{{hw.solution_url}}" target="_blank">solution</a>{% endif %}]</li>
-                {% else %}
-                <li class="inactive">Homework {{hw.number}}: {{hw.title}}</li>
-                {% endif %} {% endif %} {% endfor %} {% for slide in slides %} {% if week.number in slide.weeks %} {% if slide.active == true %}
+                {% for slide in slides %} {% if week.number in slide.weeks %} {% if slide.active == true %}
                 <li>
                     <a href="{{ slide.url }}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a> {% if slide.notebook %}
                     <a href="{{slide.notebook}}" target="_blank">(notebook)</a> {% else %} {% endif %}
                 </li>
                 {% else %}
                 <li class="inactive">Lecture {{slide.number}}: {{slide.title}}</li>
+                {% endif %} {% endif %} {% endfor %}
+                {% for hw in homeworks %} {% if week.number in hw.weeks %} {% if hw.active == true %}
+                <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> {% if hw.due_date %}(<b>due {{hw.due_date}}</b>) {% else %}{% endif %}[<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>{% if hw.solution and hw.solution_url %}, <a href="{{hw.solution_url}}" target="_blank">solution</a>{% endif %}]</li>
+                {% else %}
+                <li class="inactive">Homework {{hw.number}}: {{hw.title}}</li>
                 {% endif %} {% endif %} {% endfor %}
             </ul>
             {% if week.number != 0 %}
