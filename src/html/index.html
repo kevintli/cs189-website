@@ -53,7 +53,7 @@ Course Website Design
             <span class="dividing-bar"></span>
             <ul class="lists two-col animate-3">
                 {% for hw in homeworks %} {% if week.number in hw.weeks %} {% if hw.active == true %}
-                <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> (<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>){% if hw.solution and hw.solution_url %} (<a href="{{hw.solution_url}}" target="_blank">solution</a>){% endif %}</li>
+                <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> {% if hw.due_date %}(<b>due {{hw.due_date}}</b>) {% else %}{% endif %}[<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>{% if hw.solution and hw.solution_url %}, <a href="{{hw.solution_url}}" target="_blank">solution</a>{% endif %}]</li>
                 {% else %}
                 <li class="inactive">Homework {{hw.number}}: {{hw.title}}</li>
                 {% endif %} {% endif %} {% endfor %} {% for slide in slides %} {% if week.number in slide.weeks %} {% if slide.active == true %}
@@ -77,7 +77,7 @@ Course Website Design
                 <p>See <a href="/syllabus#homeworks">Syllabus</a> for more information.</p>
                 <ul class="lists two-col animate-3" resource="homeworks">
                     {% for hw in homeworks %} {% set sorted_hw_weeks = hw.weeks | sort %} {% set min_hw_week = sorted_hw_weeks[0] %} {% if min_hw_week
-                    <= weeks.current and hw.active == true %} <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> (<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>){% if hw.solution and hw.solution_url %} (<a href="{{hw.solution_url}}" target="_blank">solution</a>){% endif %}</li>
+                    <= weeks.current and hw.active == true %} <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> {% if hw.due_date %}(<b>due {{hw.due_date}}</b>) {% else %}{% endif %}[<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>{% if hw.solution and hw.solution_url %}, <a href="{{hw.solution_url}}" target="_blank">solution</a>{% endif %}]</li>
                         {% else %}
                         <li class="inactive">Homework {{ hw.number }}: {{ hw.title }}</li>
                         {% endif %} {% endfor %}
