@@ -18,7 +18,7 @@
         },
         {
             "email": "agnibhoroy@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/agnibho.png",
             "name": "Agnibho Roy",
             "discussions": "TBD",
             "office_hours": "TBD",
@@ -26,23 +26,25 @@
         },
         {
             "email": "ajabri@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/allan.png",
             "name": "Allan Jabri",
+            "link": "https://ajabri.github.io/",
             "discussions": "TBD",
             "office_hours": "TBD",
             "title": "GSI"
         },
         {
             "email": "ashwin_balakrishna@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/ashwin.png",
             "name": "Ashwin Balakrishna",
+            "link": "https://abalakrishna123.github.io/",
             "discussions": "TBD",
             "office_hours": "TBD",
             "title": "GSI"
         },
         {
             "email": "gauravrghosal@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/gaurav.png",
             "name": "Gaurav Ghosal",
             "discussions": "TBD",
             "office_hours": "TBD",
@@ -50,23 +52,25 @@
         },
         {
             "email": "kagrawal@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/kumar.png",
             "name": "Kumar Krishna Agrawal",
+            "link": "https://people.eecs.berkeley.edu/~krishna/",
             "discussions": "TBD",
             "office_hours": "TBD",
             "title": "GSI"
         },
         {
             "email": "philip_jacobson@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/philip.png",
             "name": "Philip Jacobson",
+            "link": "http://philipljacobson.com/index.html",
             "discussions": "TBD",
             "office_hours": "TBD",
             "title": "GSI"
         },
         {
             "email": "rahulkumar@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/rahul.png",
             "name": "Rahul Kumar",
             "discussions": "TBD",
             "office_hours": "TBD",
@@ -74,7 +78,7 @@
         },
         {
             "email": "ziyema@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/ziye.png",
             "name": "Ziye Ma",
             "discussions": "TBD",
             "office_hours": "TBD",
@@ -82,7 +86,7 @@
         },
         {
             "email": "anikar@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/anika.png",
             "name": "Anika Ramachandran",
             "discussions": "TBD",
             "office_hours": "TBD",
@@ -90,7 +94,7 @@
         },
         {
             "email": "bhoberman@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/ben.png",
             "name": "Ben Hoberman",
             "discussions": "TBD",
             "office_hours": "TBD",
@@ -98,7 +102,7 @@
         },
         {
             "email": "fliu@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/frank.png",
             "name": "Frank Liu",
             "discussions": "TBD",
             "office_hours": "TBD",
@@ -106,14 +110,14 @@
         },
         {
             "email": "volkovskyi@",
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/oleksii.png",
             "name": "Oleksii Volkovskyi",
             "discussions": "TBD",
             "office_hours": "TBD",
             "title": "uGSI"
         },
         {
-            "image": "/static/images/staff_pics/blank.png",
+            "image": "/static/images/staff_pics/philippe.png",
             "email": "hansenpmeche@",
             "name": "Philippe Hansen-Estruch",
             "discussions": "TBD",
