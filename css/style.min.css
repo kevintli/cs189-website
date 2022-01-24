@@ -144,7 +144,10 @@ aside.drawer.active {
   text-align: center;
   padding: 2em 3em; }
   .notification p {
-    margin: 0; }
+    margin: auto;
+    max-width: 70em;
+    width: 90%;
+    text-align: center; }
   .notification a {
     color: inherit;
     border-bottom: 1px dotted #FFF; }
@@ -337,7 +340,9 @@ ul.lists {
       text-decoration: none;
       border-bottom: 1px solid #000; }
   ul.lists li.inactive {
-    color: #ccc; }
+    color: #c7c7c7; }
+  ul.lists li.inactive-schedule {
+    color: #a0a0a0; }
 
 .trigger {
   width: 100%;
