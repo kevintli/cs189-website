@@ -141,7 +141,10 @@ aside.drawer.active {
     text-align: center;
     padding: 2em 3em;
     p {
-        margin: 0;
+        margin: auto;
+        max-width: 70em;
+        width: 90%;
+        text-align: center;
     }
     a {
         color: inherit;

@@ -1,41 +1,40 @@
 ul.lists {
-    padding:0;
-    overflow:hidden;
-
+    padding: 0;
+    overflow: hidden;
     li {
-        color:#000;
-        padding:0.2em 0;
-        font-size:1.1em;
-        list-style:none;
-        margin:0;
-
+        color: #000;
+        padding: 0.2em 0;
+        font-size: 1.1em;
+        list-style: none;
+        margin: 0;
         a {
-            color:inherit;
-            border-bottom:1px dotted #000;
+            color: inherit;
+            border-bottom: 1px dotted #000;
         }
-
         a:hover {
-            text-decoration:none;
-            border-bottom:1px solid #000;
+            text-decoration: none;
+            border-bottom: 1px solid #000;
         }
     }
-
     li.inactive {
-        color:#ccc;
+        color: rgb(199, 199, 199);
+    }
+    li.inactive-schedule {
+        color: rgb(160, 160, 160);
     }
 }
 
 .trigger {
-    width:100%;
-    background-color:#f6f6f6;
-    padding:1em 2em;
-    color:#666;
-    text-transform:uppercase;
-    text-align:center;
+    width: 100%;
+    background-color: #f6f6f6;
+    padding: 1em 2em;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .trigger:hover {
-    background-color:#eee;
-    color:#333;
-    cursor:pointer;
+    background-color: #eee;
+    color: #333;
+    cursor: pointer;
 }

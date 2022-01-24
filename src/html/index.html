@@ -8,8 +8,7 @@ Course Website Design
 -->
 {% endblock %} {% block title %}CS 189{% endblock %} {% block body %}
 <div class="notification">
-    <p>Welcome to CS 189/289A! Lectures will begin on <b>Wednesday, 1/19</b>; discussion sections and office hours will begin on the second week of classes.</p>
-    <p><i><b>Note:</b> If you are enrolled in the Data Science offering (CS 189-002), please go to <a href="https://eecs189.org">this website</a> instead.</i></p>
+    <p>Welcome to CS 189/289A! This is an <b>unofficial</b> course website managed by TAs, meant to help you access course resources more easily. If you see any discrepancies between this and the <a href="https://people.eecs.berkeley.edu/~jrs/189/" target="_blank">official website</a>, you should default to the information on the official one instead.</p>
 </div>
 <main class="index-page">
     <section class="page-head wrap-container">
@@ -52,18 +51,18 @@ Course Website Design
             <p class="highlighted-byline">{{ week.date_range }}</p>
             <span class="dividing-bar"></span>
             <ul class="lists two-col animate-3">
-                {% for slide in slides %} {% if week.number in slide.weeks %} {% if slide.active == true %}
+                {% for slide in slides %} {% if week.number in slide.weeks %} {% if slide.active == true and slide.url %}
                 <li>
                     <a href="{{ slide.url }}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a> {% if slide.notebook %}
                     <a href="{{slide.notebook}}" target="_blank">(notebook)</a> {% else %} {% endif %}
                 </li>
                 {% else %}
-                <li class="inactive">Lecture {{slide.number}}: {{slide.title}}</li>
+                <li class="inactive-schedule">Lecture {{slide.number}}: {{slide.title}}</li>
                 {% endif %} {% endif %} {% endfor %}
                 {% for hw in homeworks %} {% if week.number in hw.weeks %} {% if hw.active == true %}
                 <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> {% if hw.due_date %}(<b>due {{hw.due_date}}</b>) {% else %}{% endif %}[<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>{% if hw.solution and hw.solution_url %}, <a href="{{hw.solution_url}}" target="_blank">solution</a>{% endif %}]</li>
                 {% else %}
-                <li class="inactive">Homework {{hw.number}}: {{hw.title}}</li>
+                <li class="inactive-schedule">Homework {{hw.number}}: {{hw.title}}</li>
                 {% endif %} {% endif %} {% endfor %}
             </ul>
             {% if week.number != 0 %}
@@ -92,7 +91,7 @@ Course Website Design
                 <h2 class="standard-title">Lecture Notes</h2>
                 <ul class="lists two-col animate-3" resource="slides">
                     {% for slide in slides %} {% set sorted_slide_weeks = slide.weeks | sort %} {% set min_slide_week = sorted_slide_weeks[0] %} {% if min_slide_week
-                    <= weeks.current and slide.active == true %} <li>
+                    <= weeks.current and slide.active == true and slide.url %} <li>
                         <a href="{{slide.url}}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a> {% if slide.notebook %}
                         <a href="{{slide.notebook}}" target="_blank">(notebook)</a> {% else %} {% endif %}
                         </li>
