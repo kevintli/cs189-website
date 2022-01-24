@@ -4,6 +4,7 @@ redirect_from: /staff
 -->
 {% endblock %} {% block title %}CS 189 Staff{% endblock %} {% block body %}
 <main class="staff-page">
+    <br><br>
     <section class="page-head wrap-container standard-text">
         <div class="wrap">
             <div class="head-decor">
@@ -34,34 +35,43 @@ redirect_from: /staff
                 {% endfor %}
                 <h2 class="standard-title">Student Instructors</h2>
                 <div class="row">
-                    {% set i = 0 %} {% for person in people.tas %} {% if i % 2 == 0 %}
-                    <!-- </div>
-                <div class="row"> -->
-                    {% endif %}
-                    <div class="person col-md-6">
-                        <div class="person-thumbnail">
-                            <div class="person-avatar">
-                                <span class="person-image" style="background: url('{{person.image}}'); background-size:cover;"></span>
+                    {% set ns = namespace(i=0) %} {% for person in people.tas %} {% if ns.i % 2 == 0 %}
+                </div>
+                <div class="row">
+                    <div class="person col-md-6 left">
+                        {% else %}
+                        <div class="person col-md-6 right">
+                            {% endif %} {% set ns.i = ns.i + 1 %}
+                            <div class="row">
+                                <div class="person-thumbnail">
+                                    <div class="person-avatar">
+                                        <span class="person-image" style="background: url('{{person.image}}'); background-size:cover;"></span>
+                                    </div>
+                                </div>
+                                <div class="person-text">
+                                    <h2 class="person-name">{{ person.title }} {% if person.link %}
+                                        <a href="{{ person.link }}" target="_blank">{{ person.name
+                                            }}</a> {% else %}
+                                        <span>{{ person.name }}</span> {% endif %}
+                                    </h2>
+                                    <p><span>{{ person.email }}</span></p>
+                                    {% if person.discussions %}
+                                    <p>Discussion(s): {{ person.discussions }}</p>
+                                    {% else %} {% endif %} {% if person.office_hours %}
+                                    <p>Office Hours: {{ person.office_hours }}</p>
+                                    {% else %} {% endif %}
+                                </div>
+                            </div>
+                            <div class="row">
+                                <p class="bio">
+                                    {% if person.bio %} {{person.bio}} {% endif %}
+                                </p>
                             </div>
                         </div>
-                        <div class="person-text">
-                            <h2 class="person-name">{{ person.title }} {% if person.link %}
-                                <a href="{{ person.link }}" target="_blank">{{ person.name
-                                        }}</a> {% else %}
-                                <span>{{ person.name }}</span> {% endif %}
-                            </h2>
-                            <p><span>{{ person.email }}</span></p>
-                            {% if person.discussions %}
-                            <p>Discussion(s): {{ person.discussions }}</p>
-                            {% else %} {% endif %} {% if person.office_hours %}
-                            <p>Office Hours: {{ person.office_hours }}</p>
-                            {% else %} {% endif %}
-                        </div>
+                        {% endfor %}
                     </div>
-                    {% set i = i + 1 %} {% endfor %}
                 </div>
             </div>
-        </div>
     </section>
 </main>
 {% endblock %}

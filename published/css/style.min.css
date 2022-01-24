@@ -11,7 +11,7 @@
   text-align: center; }
 
 .wrap {
-  max-width: 60em;
+  max-width: 70em;
   width: 80%;
   text-align: left;
   display: inline-block; }
@@ -234,9 +234,19 @@ div.person {
       margin: 0.1em 0; }
       div.person .person-text p span {
         color: #000; }
+  div.person .bio {
+    margin-top: 10px;
+    margin-bottom: 30px; }
+
+div.person.left {
+  padding-right: 15px; }
+
+div.person.right {
+  padding-left: 15px; }
 
 .row {
-  width: 100%; }
+  width: 100%;
+  margin: auto; }
 
 .highlighted-text {
   margin: 2em 0; }

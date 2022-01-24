@@ -6,33 +6,34 @@
  */
 
 * {
-    font-family:'Work Sans';
+    font-family: 'Work Sans';
 }
 
 .wrap-container {
-    text-align:center;
+    text-align: center;
 }
+
 .wrap {
-    max-width:60em;
-    width:80%;
-    text-align:left;
-    display:inline-block;
+    max-width: 70em;
+    width: 80%;
+    text-align: left;
+    display: inline-block;
 }
 
 .animate-3 {
-    -webkit-transition:     0.3s ease;
-    -moz-transition:        0.3s ease;
-    transition:             0.3s ease;
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    transition: 0.3s ease;
 }
 
 .animate-5 {
-    -webkit-transition:     0.5s ease;
-    -moz-transition:        0.5s ease;
-    transition:             0.5s ease;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    transition: 0.5s ease;
 }
 
 .draft {
-    color:red;
+    color: red;
 }
 
 @import 'header';

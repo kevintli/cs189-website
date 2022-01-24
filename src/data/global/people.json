@@ -12,42 +12,45 @@
             "image": "/static/images/staff_pics/kevin.png",
             "link": "https://kevintli.com",
             "name": "Kevin Li",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "Head GSI"
+            "discussions": "Wed 3-4pm",
+            "office_hours": "by appointment",
+            "title": "Head GSI",
+            "bio": "Hi! I'm a 5th year MS student working on uncertainty estimation for reinforcement learning & robotics. I'm passionate about teaching and improving the quality of CS classes at Berkeley - this will be my seventh (and final) semester TAing, and I'm hoping to make it a great one :'). I enjoy hiking, piano, social deduction board games, and exploring new cities/neighborhoods."
         },
         {
             "email": "agnibhoroy@",
             "image": "/static/images/staff_pics/agnibho.png",
             "name": "Agnibho Roy",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "uGSI"
+            "discussions": "Wed 12-1pm; Thurs 10-11am",
+            "office_hours": "Mon 10am-12pm; Wed 10-11am",
+            "title": "uGSI",
+            "bio": "Hey guys, I’m Agnibho. I am a fourth year majoring in EECS and Applied Math from Dallas, Texas and am looking forward to a great (hopefully no more online) semester! In my free time, im usually found hitting some fuzzy yellow balls at the Channing courts, going on runs on the fire trails, or having a pint with my friends while entertained by some nba basketball (avid mavs fan btw). Hope you enjoy 189 as much as I did!"
         },
         {
             "email": "ajabri@",
             "image": "/static/images/staff_pics/allan.png",
             "name": "Allan Jabri",
             "link": "https://ajabri.github.io/",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "GSI"
+            "discussions": "Tues 4-5pm",
+            "office_hours": "Thurs 10-11am; Thurs 1-3pm; Fri 11am-12pm",
+            "title": "GSI",
+            "bio": "Hi! I'm a fifth year PhD student in CS. I work on unsupervised learning for perception and control. I like swimming, languages, third culture kids, bopping to tunes, and Love Island (UK or AUS). I also worked in industry before grad school. Feel free to reach out :)"
         },
         {
             "email": "ashwin_balakrishna@",
             "image": "/static/images/staff_pics/ashwin.png",
             "name": "Ashwin Balakrishna",
             "link": "https://abalakrishna123.github.io/",
-            "discussions": "TBD",
-            "office_hours": "TBD",
+            "discussions": "Tues 1-2pm; Tues 8-9pm",
+            "office_hours": "Wed 10am-1pm",
             "title": "GSI"
         },
         {
             "email": "gauravrghosal@",
             "image": "/static/images/staff_pics/gaurav.png",
             "name": "Gaurav Ghosal",
-            "discussions": "TBD",
-            "office_hours": "TBD",
+            "discussions": "Wed 6-7pm",
+            "office_hours": "Tues 9-11am; Thurs 11am-1pm",
             "title": "uGSI"
         },
         {
@@ -55,8 +58,8 @@
             "image": "/static/images/staff_pics/kumar.png",
             "name": "Kumar Krishna Agrawal",
             "link": "https://people.eecs.berkeley.edu/~krishna/",
-            "discussions": "TBD",
-            "office_hours": "TBD",
+            "discussions": "Tues 3-4pm",
+            "office_hours": "Mon 6-9pm; Thurs 12-1pm",
             "title": "GSI"
         },
         {
@@ -64,65 +67,73 @@
             "image": "/static/images/staff_pics/philip.png",
             "name": "Philip Jacobson",
             "link": "http://philipljacobson.com/index.html",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "GSI"
+            "discussions": "Tues 10-11am",
+            "office_hours": "Mon 6-8pm; Tues 12-2pm",
+            "title": "GSI",
+            "bio": "Hi, I'm Philip! I'm a 3rd year EECS PhD student working on perception for autonomous driving. Outside of the lab, I enjoy running, hiking, playing video games, and watching football and basketball"
         },
         {
             "email": "rahulkumar@",
             "image": "/static/images/staff_pics/rahul.png",
             "name": "Rahul Kumar",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "uGSI"
+            "discussions": "Tues 4-5pm",
+            "office_hours": "Tues 1-2pm; Tues 3-4pm",
+            "title": "uGSI",
+            "bio": "Hi, I'm Rahul! I'm a 4th year EECS student. I mostly work on circuit design."
         },
         {
             "email": "ziyema@",
             "image": "/static/images/staff_pics/ziye.png",
             "name": "Ziye Ma",
-            "discussions": "TBD",
-            "office_hours": "TBD",
+            "discussions": "Wed 10-11am; Wed 2-3pm",
+            "office_hours": "Tues 11am-12pm; Fri 10am-12pm",
             "title": "GSI"
         },
         {
             "email": "anikar@",
             "image": "/static/images/staff_pics/anika.png",
             "name": "Anika Ramachandran",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "uGSI"
+            "discussions": "Wed 4-5pm",
+            "office_hours": "Wed 11am-1pm",
+            "title": "uGSI",
+            "bio": "Hi! I'm a fourth-year EECS + IEOR major from the South Bay. In my free time, I enjoy spending time with friends, watching movies, and karaoke-ing disney songs. I’m super excited to be TAing 189 this semester and look forward to meeting all of you!"
         },
         {
             "email": "bhoberman@",
             "image": "/static/images/staff_pics/ben.png",
             "name": "Ben Hoberman",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "uGSI"
+            "discussions": "Wed 2-3pm",
+            "office_hours": "Fri 12-2pm",
+            "title": "uGSI",
+            "bio": "Hello, and welcome to CS189! I'm a senior studying EECS, though in my time I've also been declared as Engineering Physics and Pure Math. I'm into security, math, computers, government, and policy, and when I'm not doing such school-y things you can find me cooking, reading, making music, or enjoying the outdoors on my bike and/or feet. I'm excited to meet you all and help you learn about machine learning this semester!"
         },
         {
             "email": "fliu@",
             "image": "/static/images/staff_pics/frank.png",
             "name": "Frank Liu",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "uGSI"
+            "discussions": "Tues 1-2pm",
+            "office_hours": "Mon 7-9pm",
+            "title": "uGSI",
+            "bio": "Hi everyone! My name is Frank, and I'm a 4th year premed student double majoring in MCB and CS and minoring in BIOE. My current research interests are in the areas of computational biology, immunology, and cancer biology. When I'm not studying, you might find me playing the piano on Sproul, lifting weights at RSF, or planning out my next travel adventure. Feel free to email me if you have any questions!"
         },
         {
             "email": "volkovskyi@",
             "image": "/static/images/staff_pics/oleksii.png",
             "name": "Oleksii Volkovskyi",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "uGSI"
+            "discussions": "Tues 7-8pm",
+            "office_hours": "Mon 6-8pm",
+            "title": "uGSI",
+            "bio": "Hi! I’m excited to help teach this class for the first time this semester. I’m really into volleyball, poker, hip hop and classic rock, and, of course, machine learning."
         },
         {
             "image": "/static/images/staff_pics/philippe.png",
             "email": "hansenpmeche@",
             "name": "Philippe Hansen-Estruch",
-            "discussions": "TBD",
-            "office_hours": "TBD",
-            "title": "uGSI"
+            "link": "https://www.linkedin.com/in/philippe-hansen-estruch-b05559210/",
+            "discussions": "Tues 5-6pm",
+            "office_hours": "Fri 4-6pm",
+            "title": "uGSI",
+            "bio": "Hi! I’m a Fourth Year EECS major from San Diego. I currently research deep reinforcement learning and have a passion for ML. Outside of academics, I enjoy video games, politics, and poker. Feel free to message if you have any questions relating to the course!"
         }
     ]
 }

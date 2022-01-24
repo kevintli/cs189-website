@@ -51,8 +51,21 @@ div.person {
             }
         }
     }
+    .bio {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
+
+div.person.left {
+    padding-right: 15px;
+}
+
+div.person.right {
+    padding-left: 15px;
 }
 
 .row {
     width: 100%;
+    margin: auto;
 }

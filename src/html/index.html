@@ -7,9 +7,9 @@ Course Website Design
 @license MIT
 -->
 {% endblock %} {% block title %}CS 189{% endblock %} {% block body %}
-<div class="notification">
+<!-- <div class="notification">
     <p>Welcome to CS 189/289A! This is an <b>unofficial</b> course website managed by TAs, meant to help you access course resources more easily. If you see any discrepancies between this and the <a href="https://people.eecs.berkeley.edu/~jrs/189/" target="_blank">official website</a>, you should default to the information on the official one instead.</p>
-</div>
+</div> -->
 <main class="index-page">
     <section class="page-head wrap-container">
         <div class="wrap">
@@ -39,6 +39,8 @@ Course Website Design
                         </li>
                         {% endfor %}
                     </ul>
+                    <br>
+                    <p><i>See the full list of course staff (including TAs and Readers) <a href="/staff">here.</a></i></p>
                 </div>
             </div>
     </section>
@@ -59,8 +61,18 @@ Course Website Design
                 {% else %}
                 <li class="inactive-schedule">Lecture {{slide.number}}: {{slide.title}}</li>
                 {% endif %} {% endif %} {% endfor %}
+
+                {% for disc in discussions %} {% if week.number == disc.week %} {% if disc.url %}
+                <li>
+                    <a href="{{ disc.url }}" target="_blank">Discussion {{ disc.number}}: {{disc.title}}</a> 
+                    {% if disc.solution_url %}[<a href="{{disc.solution_url}}" target="_blank">sol</a>]{% endif %}
+                </li>
+                {% else %}
+                <li class="inactive-schedule">Discussion {{disc.number}}: {{disc.title}}</li>
+                {% endif %} {% endif %} {% endfor %}
+
                 {% for hw in homeworks %} {% if week.number in hw.weeks %} {% if hw.active == true %}
-                <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> {% if hw.due_date %}(<b>due {{hw.due_date}}</b>) {% else %}{% endif %}[<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>{% if hw.solution and hw.solution_url %}, <a href="{{hw.solution_url}}" target="_blank">solution</a>{% endif %}]</li>
+                <li><a href="{{ hw.url }}" target="_blank">Homework {{ hw.number}}: {{hw.title}}</a> {% if hw.due_date %}(<b>due {{hw.due_date}}</b>) {% else %}{% endif %}[<a href="https://people.eecs.berkeley.edu/~jrs/189/hw/hw{{hw.number}}.pdf" target="_blank">pdf</a>{% if hw.solution and hw.solution_url %}, <a href="{{hw.solution_url}}" target="_blank">sol</a>{% endif %}]</li>
                 {% else %}
                 <li class="inactive-schedule">Homework {{hw.number}}: {{hw.title}}</li>
                 {% endif %} {% endif %} {% endfor %}
@@ -88,6 +100,21 @@ Course Website Design
         </section>
         <section class="standard-text wrap-container">
             <div class="wrap">
+                <h2 class="standard-title">Discussion Worksheets</h2>
+                <ul class="lists two-col animate-3" resource="homeworks">
+                    {% for disc in discussions %} {% if disc.url %}
+                    <li>
+                        <a href="{{ disc.url }}" target="_blank">Discussion {{ disc.number}}: {{disc.title}}</a> 
+                        {% if disc.solution_url %}[<a href="{{disc.solution_url}}" target="_blank">sol</a>]{% endif %}
+                    </li>
+                    {% else %}
+                    <li class="inactive-schedule">Discussion {{disc.number}}: {{disc.title}}</li>
+                    {% endif %} {% endfor %}
+                </ul>
+            </div>
+        </section>
+        <section class="standard-text wrap-container">
+            <div class="wrap">
                 <h2 class="standard-title">Lecture Notes</h2>
                 <ul class="lists two-col animate-3" resource="slides">
                     {% for slide in slides %} {% set sorted_slide_weeks = slide.weeks | sort %} {% set min_slide_week = sorted_slide_weeks[0] %} {% if min_slide_week
@@ -100,12 +127,6 @@ Course Website Design
                         </li>
                         {% endif %} {% endfor %}
                 </ul>
-                <!--<div class="trigger" resource="slides">Expand</div>-->
-            </div>
-        </section>
-        <section class="standard-text wrap-container">
-            <div class="wrap">
-                <h2 class="standard-title">Discussions</h2>
             </div>
         </section>
 </main>
