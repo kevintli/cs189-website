@@ -14,10 +14,14 @@
 }
 
 .wrap {
-    max-width: 70em;
+    max-width: 60em;
     width: 80%;
     text-align: left;
     display: inline-block;
+}
+
+.wrap.staff {
+    max-width: 70em;
 }
 
 .animate-3 {

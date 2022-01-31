@@ -11,6 +11,7 @@
     {
         "number": 2,
         "title": "Linear Classifiers",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/02.pdf",
         "weeks": [
             1
         ],
@@ -20,6 +21,7 @@
     {
         "number": 3,
         "title": "Gradient Descent, Perceptrons, Hard-Margin SVM",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/03.pdf",
         "weeks": [
             1
         ],

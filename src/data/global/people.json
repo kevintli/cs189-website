@@ -10,7 +10,7 @@
     "tas": [{
             "email": "kevintli@",
             "image": "/static/images/staff_pics/kevin.png",
-            "link": "https://kevintli.com",
+            "link": "https://www.kevintli.com",
             "name": "Kevin Li",
             "discussions": "Wed 3-4pm",
             "office_hours": "by appointment",
@@ -43,7 +43,8 @@
             "link": "https://abalakrishna123.github.io/",
             "discussions": "Tues 1-2pm; Tues 8-9pm",
             "office_hours": "Wed 10am-1pm",
-            "title": "GSI"
+            "title": "GSI",
+            "bio": "Hi, I'm a 4th year CS PhD student and I work on trying to get robots to do cool things with reinforcement/imitation learning without causing too much damage in the process :P In my free time I like playing/watching tennis, going on hiking/biking trips near the ocean, and venturing down aimless YouTube rabbit holes. Looking forward to getting to know all of you this summer!"
         },
         {
             "email": "gauravrghosal@",
@@ -51,7 +52,9 @@
             "name": "Gaurav Ghosal",
             "discussions": "Wed 6-7pm",
             "office_hours": "Tues 9-11am; Thurs 11am-1pm",
-            "title": "uGSI"
+            "title": "uGSI",
+            "link": "https://www.linkedin.com/in/gaurav-ghosal-a2b3a318b/",
+            "bio": "Hi Everyone! My name is Gaurav and I am a 3rd year EECS major.  I am very interested in a range of research topics including reinforcement learning, human-robot interaction, and interpretable machine learning. In my free time, I enjoy learning about math and running. Feel free to reach out to chat about anything related to this class, ML/AI in general, or life at Cal. Looking forward to a great semester!"
         },
         {
             "email": "kagrawal@",
@@ -60,7 +63,8 @@
             "link": "https://people.eecs.berkeley.edu/~krishna/",
             "discussions": "Tues 3-4pm",
             "office_hours": "Mon 6-9pm; Thurs 12-1pm",
-            "title": "GSI"
+            "title": "GSI",
+            "bio": "I am a graduate student at EECS, UC Berkeley. I am interested in algorithms and systems for interactive and efficient machine learning."
         },
         {
             "email": "philip_jacobson@",
@@ -87,7 +91,8 @@
             "name": "Ziye Ma",
             "discussions": "Wed 10-11am; Wed 2-3pm",
             "office_hours": "Tues 11am-12pm; Fri 10am-12pm",
-            "title": "GSI"
+            "title": "GSI",
+            "bio": "Hi! I’m Ziye or you can just call me Gaven. I’m a 3rd year PhD student in the EECS department working on mathematical optimization and machine learning. It’s my second time TAing for CS189, so if you have questions related to the course feel free to email me."
         },
         {
             "email": "anikar@",

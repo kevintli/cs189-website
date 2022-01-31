@@ -11,11 +11,13 @@
     },
     {
         "number": "2",
-        "title": "Math Review",
+        "title": "I <3 Math",
         "weeks": [
             0, 1, 2, 3
         ],
-        "active": false,
+        "due_date": "2/9",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/hw/hw2.pdf",
+        "active": true,
         "solution": false
     },
     {
