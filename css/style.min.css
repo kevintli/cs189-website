@@ -11,10 +11,13 @@
   text-align: center; }
 
 .wrap {
-  max-width: 70em;
+  max-width: 60em;
   width: 80%;
   text-align: left;
   display: inline-block; }
+
+.wrap.staff {
+  max-width: 70em; }
 
 .animate-3 {
   -webkit-transition: 0.3s ease;
@@ -145,7 +148,7 @@ aside.drawer.active {
   padding: 2em 3em; }
   .notification p {
     margin: auto;
-    max-width: 70em;
+    max-width: 60em;
     width: 90%;
     text-align: center; }
   .notification a {
@@ -239,10 +242,10 @@ div.person {
     margin-bottom: 30px; }
 
 div.person.left {
-  padding-right: 15px; }
+  padding-right: 20px; }
 
 div.person.right {
-  padding-left: 15px; }
+  padding-left: 20px; }
 
 .row {
   width: 100%;
