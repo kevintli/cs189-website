@@ -32,6 +32,22 @@
 .draft {
   color: red; }
 
+a.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: white;
+  background-color: #b48e46;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.5s; }
+
+a.button:hover {
+  opacity: 0.5; }
+
 header {
   padding: 2em 0; }
   header .header-title {

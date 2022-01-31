@@ -40,6 +40,26 @@
     color: red;
 }
 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(180, 142, 70);
+    padding: 10px 20px 10px 20px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: bold;
+
+    transition: 0.5s;
+}
+
+a.button:hover {
+    opacity: 0.5;
+}
+
 @import 'header';
 @import 'footer';
 @import 'head';
