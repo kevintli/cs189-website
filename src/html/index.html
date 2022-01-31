@@ -59,7 +59,7 @@ Course Website Design
                     <a href="{{ slide.url }}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a> {% if slide.notebook %}
                     <a href="{{slide.notebook}}" target="_blank">(notebook)</a> {% else %} {% endif %}
                     {% if slide.video %}
-                    <a href="{{slide.video}}" target="_blank">(video)</a> {% else %} {% endif %}
+                    <a href="{{slide.video}}" target="_blank">[video]</a> {% else %} {% endif %}
                 </li>
                 {% else %}
                 <li class="inactive-schedule">Lecture {{slide.number}}: {{slide.title}}</li>
@@ -125,7 +125,7 @@ Course Website Design
                         <a href="{{slide.url}}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a> {% if slide.notebook %}
                         <a href="{{slide.notebook}}" target="_blank">(notebook)</a> {% else %} {% endif %}
                         {% if slide.video %}
-                        <a href="{{slide.video}}" target="_blank">(video)</a> {% else %} {% endif %}
+                        <a href="{{slide.video}}" target="_blank">[video]</a> {% else %} {% endif %}
                         </li>
                         {% else %}
                         <li class="inactive">Lecture {{ slide.number }}: {{ slide.title }}
