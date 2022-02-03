@@ -34,6 +34,9 @@
     {
         "number": 4,
         "title": "Soft-margin SVM, nonlinear features",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/04.pdf",
+        "video": "https://kaf.berkeley.edu/media/t/1_qnckf2bi/243863682",
+        "old_video": "https://drive.google.com/file/d/1xsz3ONBLmARRpviHlPswAANwCwqR8R_c/edit",
         "weeks": [
             2
         ],
@@ -43,6 +46,8 @@
     {
         "number": 5,
         "title": "Machine learning abstractions, optimization problems",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/05.pdf",
+        "old_video": "https://drive.google.com/file/d/10CHzCj90QJO3Y3MRaMf4SwqccRBTNmdb",
         "weeks": [
             2
         ],

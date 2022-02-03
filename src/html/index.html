@@ -59,7 +59,9 @@ Course Website Design
                     <a href="{{ slide.url }}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a> {% if slide.notebook %}
                     <a href="{{slide.notebook}}" target="_blank">(notebook)</a> {% else %} {% endif %}
                     {% if slide.video %}
-                    <a href="{{slide.video}}" target="_blank">[video]</a> {% else %} {% endif %}
+                    <a href="{{slide.video}}" target="_blank">[recording]</a> {% else %} {% endif %}
+                    {% if slide.old_video %}
+                    <a href="{{slide.old_video}}" target="_blank">[sp21 video]</a> {% else %} {% endif %}
                 </li>
                 {% else %}
                 <li class="inactive-schedule">Lecture {{slide.number}}: {{slide.title}}</li>
@@ -118,14 +120,16 @@ Course Website Design
         </section>
         <section class="standard-text wrap-container">
             <div class="wrap">
-                <h2 class="standard-title">Lecture Notes</h2>
+                <h2 class="standard-title">Lectures</h2>
                 <ul class="lists two-col animate-3" resource="slides">
                     {% for slide in slides %} {% set sorted_slide_weeks = slide.weeks | sort %} {% set min_slide_week = sorted_slide_weeks[0] %} {% if min_slide_week
                     <= weeks.current and slide.active == true and slide.url %} <li>
                         <a href="{{slide.url}}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a> {% if slide.notebook %}
                         <a href="{{slide.notebook}}" target="_blank">(notebook)</a> {% else %} {% endif %}
                         {% if slide.video %}
-                        <a href="{{slide.video}}" target="_blank">[video]</a> {% else %} {% endif %}
+                        <a href="{{slide.video}}" target="_blank">[recording]</a> {% else %} {% endif %}
+                        {% if slide.old_video %}
+                        <a href="{{slide.old_video}}" target="_blank">[sp21 video]</a> {% else %} {% endif %}
                         </li>
                         {% else %}
                         <li class="inactive">Lecture {{ slide.number }}: {{ slide.title }}
