@@ -3,11 +3,22 @@
     "week": 1,
     "title": "Introduction and SVMs",
     "url": "https://drive.google.com/file/d/10-BKHr5aNsIooBovkBsqF9R6zN37AC1g/view?usp=sharing",
-    "solution_url": "https://drive.google.com/file/d/1sCTtlm2AaCpVO1R9LgY4pfHGLlocgD6-/view?usp=sharing"
+    "solution_url": "https://drive.google.com/file/d/1sCTtlm2AaCpVO1R9LgY4pfHGLlocgD6-/view?usp=sharing",
+    "recording": "https://drive.google.com/file/d/1vDrWLIvZKGjCGHj7l9oO7B76sX-Eq_YO/view?usp=sharing",
+    "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=67"
 },
 {
     "number": "2",
     "week": 2,
     "title": "Math Review",
-    "url": "https://drive.google.com/file/d/17_ePLuIprxu1xoJZgU2TVWurfQlES1Au/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/17_ePLuIprxu1xoJZgU2TVWurfQlES1Au/view?usp=sharing",
+    "solution_url": "https://drive.google.com/file/d/1NzL3RYNU1hp92I5I4QNdL7Oex2MDUyh8/view",
+    "recording": "https://drive.google.com/file/d/1s_u8jiIeIQexfPwjyD95nf69O9_1_LWs/view?usp=sharing",
+    "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=228"
+},
+{
+    "number": "3",
+    "week": 3,
+    "title": "Soft-Margin SVMs, Bayes",
+    "url": "https://drive.google.com/file/d/1dbMOgfkx4qh_woydxJYjDFfgW0I2HT8t/view?usp=sharing"
 }]

@@ -26,7 +26,8 @@
         "weeks": [
             3, 4, 5
         ],
-        "active": true,
+        "due_date": "2/23",
+        "active": false,
         "solution": false
     },
     {
@@ -35,7 +36,7 @@
         "weeks": [
             5, 6, 7
         ],
-        "active": true,
+        "active": false,
         "solution": false
     },
     {
@@ -44,7 +45,7 @@
         "weeks": [
             7, 8, 10
         ],
-        "active": true,
+        "active": false,
         "solution": false
     },
     {

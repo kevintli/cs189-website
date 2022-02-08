@@ -71,6 +71,8 @@ Course Website Design
                 <li>
                     <a href="{{ disc.url }}" target="_blank">Discussion {{ disc.number}}: {{disc.title}}</a> 
                     {% if disc.solution_url %}[<a href="{{disc.solution_url}}" target="_blank">sol</a>]{% endif %}
+                    {% if disc.recording %}[<a href="{{disc.recording}}" target="_blank">recording</a>]{% endif %}
+                    {% if disc.piazza %}[<a href="{{disc.piazza}}" target="_blank">piazza</a>]{% endif %}
                 </li>
                 {% else %}
                 <li class="inactive-schedule">Discussion {{disc.number}}: {{disc.title}}</li>
@@ -111,6 +113,8 @@ Course Website Design
                     <li>
                         <a href="{{ disc.url }}" target="_blank">Discussion {{ disc.number}}: {{disc.title}}</a> 
                         {% if disc.solution_url %}[<a href="{{disc.solution_url}}" target="_blank">sol</a>]{% endif %}
+                        {% if disc.recording %}[<a href="{{disc.recording}}" target="_blank">recording</a>]{% endif %}
+                        {% if disc.piazza %}[<a href="{{disc.piazza}}" target="_blank">piazza</a>]{% endif %}
                     </li>
                     {% else %}
                     <li class="inactive-schedule">Discussion {{disc.number}}: {{disc.title}}</li>
