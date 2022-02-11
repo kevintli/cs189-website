@@ -59,7 +59,7 @@
         "number": 6,
         "title": "Decision theory, Generative/discriminative models",
         "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/06.pdf",
-        "video": "",
+        "video": "https://kaf.berkeley.edu/media/t/1_3q2najpk/243863682",
         "old_video": "https://drive.google.com/file/d/1CKWeMH_lwxISxbQof2HKfpJLkwDNr226",
         "weeks": [
             3
@@ -71,6 +71,8 @@
         "number": 7,
         "title": "QDA, LDA, MLE of parameters",
         "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/07.pdf",
+        "video": "https://kaf.berkeley.edu/media/t/1_lcuidjto/243863682",
+        "old_video": "https://drive.google.com/file/d/1WJrlVM43W2Y0OPuBgg284hlOuqMnwYZK",
         "weeks": [
             3
         ],

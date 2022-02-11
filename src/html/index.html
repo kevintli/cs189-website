@@ -56,8 +56,7 @@ Course Website Design
             <ul class="lists two-col animate-3">
                 {% for slide in slides %} {% if week.number in slide.weeks %} {% if slide.active == true and slide.url %}
                 <li>
-                    Lecture {{slide.number}}: {{slide.title}}
-                    <a href="{{slide.url}}" target="_blank">[notes]</a>
+                    <a href="{{slide.url}}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a>
                     {% if slide.video %}
                     <a href="{{slide.video}}" target="_blank">[recording]</a> {% else %} {% endif %}
                     {% if slide.old_video %}
@@ -124,12 +123,11 @@ Course Website Design
         </section>
         <section class="standard-text wrap-container">
             <div class="wrap">
-                <h2 class="standard-title">Lectures</h2>
+                <h2 class="standard-title">Lecture Notes</h2>
                 <ul class="lists two-col animate-3" resource="slides">
                     {% for slide in slides %} {% set sorted_slide_weeks = slide.weeks | sort %} {% set min_slide_week = sorted_slide_weeks[0] %} {% if min_slide_week
                     <= weeks.current and slide.active == true and slide.url %} <li>
-                        Lecture {{slide.number}}: {{slide.title}}
-                        <a href="{{slide.url}}" target="_blank">[notes]</a>
+                        <a href="{{slide.url}}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a>
                         {% if slide.video %}
                         <a href="{{slide.video}}" target="_blank">[recording]</a> {% else %} {% endif %}
                         {% if slide.old_video %}
