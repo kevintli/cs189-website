@@ -27,7 +27,9 @@
             3, 4, 5
         ],
         "due_date": "2/23",
-        "active": false,
+        "url": "https://piazza.com/redirect/s3?bucket=uploads&prefix=paste%2Fjzlnoqlkaeb1te%2F1cfb1fc8604bd75acff3779795bdbb4087b3042505c0c1b9dfea92ee08ae383c%2Fhw3releasefinal.zip",
+        "pdf": "https://cdn-uploads.piazza.com/paste/jzlnoqlkaeb1te/da44f4607bf9c774c3f6220debe1e1a342d9b46a29a042e9deb312768b1620ec/HW3_Release.pdf",
+        "active": true,
         "solution": false
     },
     {

@@ -82,6 +82,7 @@
     {
         "number": 8,
         "title": "Eigendecomposition, Spectral Theorem, anisotropic Gaussians",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/08.pdf",
         "weeks": [
             4
         ],
@@ -91,6 +92,7 @@
     {
         "number": 9,
         "title": "More anisotropic Gaussians",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/09.pdf",
         "weeks": [
             4
         ],
