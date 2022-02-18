@@ -20,11 +20,16 @@
     "number": "3",
     "week": 3,
     "title": "Soft-Margin SVMs, Bayes",
-    "url": "https://drive.google.com/file/d/1dbMOgfkx4qh_woydxJYjDFfgW0I2HT8t/view?usp=sharing"
+    "url": "https://drive.google.com/file/d/1dbMOgfkx4qh_woydxJYjDFfgW0I2HT8t/view?usp=sharing",
+    "solution_url": "https://drive.google.com/file/d/19qyk9KvMywhZHG_l6bmZJyU4Pb78ozAQ/view?usp=sharing",
+    "recording": "https://drive.google.com/file/d/1jTRdxq_BtAPn5mY3PIRbwN1CTCyWIBon/view?usp=sharing",
+    "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=272"
 },
 {
     "number": "4",
     "week": 4,
     "title": "Bayes, MLE, GDA, Quadratic Forms",
-    "url": ""
+    "url": "https://drive.google.com/file/d/1P0zrJXtTtsvdfTyys5BzP2h2KssWpagW/view?usp=sharing",
+    "solution_url": "https://drive.google.com/file/d/1Du1MPfCRJ3zO5jaYGijNnE_2GuQhCZng/view?usp=sharing",
+    "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=335"
 }]
