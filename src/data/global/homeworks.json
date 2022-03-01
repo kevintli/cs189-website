@@ -35,10 +35,13 @@
     {
         "number": "4",
         "title": "Regression",
+        "url": "https://drive.google.com/file/d/1m5PHBrpU9GIYoxRvLZsrAbaJB4un8JdF",
+        "pdf": "https://people.eecs.berkeley.edu/~jrs/189/hw/hw4.pdf",
+        "due_date": "3/9",
         "weeks": [
             5, 6, 7
         ],
-        "active": false,
+        "active": true,
         "solution": false
     },
     {

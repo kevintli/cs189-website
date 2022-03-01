@@ -106,6 +106,9 @@
     {
         "number": 10,
         "title": "Regression overview, least-squares and logistic regression",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/10.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-10-page",
+        "old_video": "https://drive.google.com/file/d/1EUhD7meRpp0mZGraJb3Wam3MaCshW3E4",
         "weeks": [
             5
         ],
