@@ -118,6 +118,8 @@
     {
         "number": 11,
         "title": "Newton's method and logistic regression; more least squares",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/11.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-11-page",
         "weeks": [
             6
         ],
