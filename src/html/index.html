@@ -54,6 +54,15 @@ Course Website Design
             <p class="highlighted-byline">{{ week.date_range }}</p>
             <span class="dividing-bar"></span>
             <ul class="lists two-col animate-3">
+                {% for link in links %} {% if week.number == link.week %}
+                <li>
+                    <a href="{{ link.url }}" target="_blank">{{link.name}}</a> 
+                    {% if link.date %} (<b>{{link.date}}</b>){% endif %}
+                </li>
+                {% endif %}
+                {% endfor %}
+
+
                 {% for slide in slides %} {% if week.number in slide.weeks %} {% if slide.active == true and slide.url %}
                 <li>
                     <a href="{{slide.url}}" target="_blank">Lecture {{slide.number}}: {{slide.title}}</a>

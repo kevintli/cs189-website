@@ -129,6 +129,8 @@
     {
         "number": 12,
         "title": "Statistical justifications for regression",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/12.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-12-page",
         "weeks": [
             6
         ],
@@ -138,6 +140,8 @@
     {
         "number": 13,
         "title": "Ridge regression, Lasso, Subset selection",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/13.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-13-page",
         "weeks": [
             7
         ],
@@ -147,6 +151,8 @@
     {
         "number": 14,
         "title": "Decision trees, entropy & info gain",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/14.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-14-page",
         "weeks": [
             7
         ],
