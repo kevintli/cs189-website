@@ -57,5 +57,19 @@
     "url": "https://drive.google.com/file/d/1tM1r8giQDqWT13VVy9N2iYDsz-4P4QZ8/view",
     "solution_url": "https://drive.google.com/file/d/1YAhVmvce3_ZC9H2EGkmANnSh3sa3ArG3/view",
     "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=501"
+},
+{
+    "number": "8",
+    "week": 8,
+    "title": "Ridge Regression and Decision Trees",
+    "url": "https://drive.google.com/file/d/1eYLud6-AVZLpxNtAQMTLvpa3NaEaQQbQ/view?usp=sharing",
+    "solution_url": "https://drive.google.com/file/d/1FaE4eW1aS2p4J1Zg_3LVTO7EfpnHNrF2/view?usp=sharing"
+},
+{
+    "number": "9",
+    "week": 10,
+    "title": "Decision Trees and Random Forests",
+    "url": "https://drive.google.com/file/d/1Wzil3V_IYLYZn20NcjczQ0kOhmctInK7/view?usp=sharing",
+    "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=690"
 }
 ]

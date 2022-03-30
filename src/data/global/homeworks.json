@@ -47,17 +47,20 @@
     {
         "number": "5",
         "title": "Decision Trees",
+        "url": "https://drive.google.com/file/d/1aICnT7DMlGOB5qngaey42CrEfgVlHWXs/edit",
+        "pdf": "https://people.eecs.berkeley.edu/~jrs/189/hw/hw5.pdf",
+        "due_date": "4/2",
         "weeks": [
             8, 10
         ],
-        "active": false,
+        "active": true,
         "solution": false
     },
     {
         "number": "6",
         "title": "Neural Networks",
         "weeks": [
-            10, 11, 12, 13
+            11, 12, 13
         ],
         "active": false,
         "solution": false
