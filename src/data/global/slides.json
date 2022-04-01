@@ -162,7 +162,7 @@
     {
         "number": 15,
         "title": "More decision trees, ensembles, random forests",
-        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/15.pdf",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/15.pdf",
         "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-15-page",
         "weeks": [
             8
@@ -173,6 +173,8 @@
     {
         "number": 16,
         "title": "Kernels",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/16.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-16-page",
         "weeks": [
             10
         ],
@@ -182,6 +184,8 @@
     {
         "number": 17,
         "title": "Neural networks, gradient descent, backprop",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/17.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-17-page",
         "weeks": [
             10
         ],
