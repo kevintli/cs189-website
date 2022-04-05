@@ -173,7 +173,7 @@
     {
         "number": 16,
         "title": "Kernels",
-        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/16.pdf",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/16.pdf",
         "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-16-page",
         "weeks": [
             10
@@ -184,7 +184,7 @@
     {
         "number": 17,
         "title": "Neural networks, gradient descent, backprop",
-        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/17.pdf",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/17.pdf",
         "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-17-page",
         "weeks": [
             10
@@ -195,6 +195,8 @@
     {
         "number": 18,
         "title": "Neuron biology, tricks and heuristics for NN training",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/18.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-18-page",
         "weeks": [
             11
         ],
