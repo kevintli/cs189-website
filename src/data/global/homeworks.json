@@ -59,10 +59,13 @@
     {
         "number": "6",
         "title": "Neural Networks",
+        "url": "https://drive.google.com/file/d/1xASLS034tG1rkmbbHLtT9oodPjqX3FtX/edit",
+        "pdf": "https://people.eecs.berkeley.edu/~jrs/189/hw/hw6.pdf",
+        "due_date": "4/24",
         "weeks": [
             11, 12, 13
         ],
-        "active": false,
+        "active": true,
         "solution": false
     },
     {

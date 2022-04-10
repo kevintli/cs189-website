@@ -70,6 +70,7 @@
     "week": 10,
     "title": "Decision Trees and Random Forests",
     "url": "https://drive.google.com/file/d/1Wzil3V_IYLYZn20NcjczQ0kOhmctInK7/view?usp=sharing",
+    "solution_url": "https://drive.google.com/file/d/1WuhqXz1bOGt5uFkHMpIfhjEmFQmx0IAY/view?usp=sharing",
     "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=690"
 },
 {
@@ -77,6 +78,12 @@
     "week": 11,
     "title": "Kernel Methods and Neural Networks",
     "url": "https://drive.google.com/file/d/1lFR-dHolNy0rCRvyjHDMFATSu_i7f5Jv/view?usp=sharing",
+    "solution_url": "https://drive.google.com/file/d/1q6O8IUUGlMjmcCPg2QmjXK35yiTdKN8c/view?usp=sharing",
     "piazza": "https://piazza.com/class/kxznj3t030x34a?cid=757"
+},
+{
+    "number": "11",
+    "week": 12,
+    "title": "Neural Networks"
 }
 ]

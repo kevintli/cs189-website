@@ -206,6 +206,8 @@
     {
         "number": 19,
         "title": "Heuristics for NN training, CNNs",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/19.pdf",
+        "video": "https://drive.google.com/file/d/1IfSM6GuQTYTdKsQAlaksNGUbuHJDESKf",
         "weeks": [
             11
         ],
