@@ -228,6 +228,8 @@
     {
         "number": 21,
         "title": "SVD, k-means and other clustering techniques",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189s21/lec/21.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-21-page",
         "weeks": [
             12
         ],
