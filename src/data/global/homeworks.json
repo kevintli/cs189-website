@@ -71,10 +71,13 @@
     {
         "number": "7",
         "title": "Unsupervised Learning and AdaBoost",
+        "url": "https://drive.google.com/file/d/1uLr_73LIDMtle7qt0kotM2LTeWR1p0Dr/view",
+        "pdf": "https://drive.google.com/file/d/1ED_rqA0CEdJ7-kmSP7LVTa0n6dbVQdeH/view",
+        "due_date": "5/8",
         "weeks": [
             14, 15
         ],
-        "active": false,
+        "active": true,
         "solution": false
     }
 ]

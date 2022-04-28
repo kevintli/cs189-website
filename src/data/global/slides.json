@@ -238,7 +238,7 @@
     },
     {
         "number": 22,
-        "title": "Spectral graph clustering",
+        "title": "High-dimensional spaces; Pseudoinverse",
         "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/22.pdf",
         "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-22-page",
         "weeks": [
@@ -249,7 +249,7 @@
     },
     {
         "number": 23,
-        "title": "More spectral graph clustering, random projection, high-dim spaces",
+        "title": "Learning Theory",
         "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/23.pdf",
         "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-23-page",
         "weeks": [
@@ -261,6 +261,8 @@
     {
         "number": 24,
         "title": "AdaBoost, nearest neighbors",
+        "url": "https://people.eecs.berkeley.edu/~jrs/189/lec/24.pdf",
+        "video": "https://bcourses.berkeley.edu/courses/1513525/pages/lecture-24-page",
         "weeks": [
             14
         ],
